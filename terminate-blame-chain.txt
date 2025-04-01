@@ -1,0 +1,1800 @@
+=== BOOT 1 FOR OPERATION terminate ===
+2.341s landscape-client.service
+ 947ms snapd.seeded.service
+ 811ms dev-sdd.device
+ 766ms snapd.service
+ 399ms wsl-pro.service
+ 350ms systemd-journal-flush.service
+ 279ms systemd-udevd.service
+ 274ms systemd-resolved.service
+ 271ms systemd-udev-trigger.service
+ 184ms rsyslog.service
+ 164ms systemd-journald.service
+ 159ms keyboard-setup.service
+ 146ms systemd-timesyncd.service
+ 124ms dev-hugepages.mount
+ 119ms dbus.service
+ 117ms dev-mqueue.mount
+ 114ms sys-kernel-debug.mount
+ 108ms sys-kernel-tracing.mount
+ 100ms systemd-timedated.service
+  97ms systemd-tmpfiles-setup-dev-early.service
+  91ms systemd-logind.service
+  80ms systemd-tmpfiles-setup.service
+  78ms kmod-static-nodes.service
+  68ms e2scrub_reap.service
+  67ms modprobe@configfs.service
+  63ms modprobe@dm_mod.service
+  63ms modprobe@drm.service
+  55ms modprobe@efi_pstore.service
+  53ms modprobe@fuse.service
+  51ms sys-fs-fuse-connections.mount
+  50ms systemd-sysctl.service
+  50ms systemd-update-utmp.service
+  50ms modprobe@loop.service
+  49ms sys-kernel-config.mount
+  47ms systemd-modules-load.service
+  42ms systemd-remount-fs.service
+  25ms setvtrgb.service
+  24ms systemd-tmpfiles-setup-dev.service
+  19ms console-setup.service
+  18ms systemd-user-sessions.service
+  17ms snapd.socket
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @4.175s
+-  multi-user.target @4.174s
+-    snapd.seeded.service @1.854s +947ms
+-      basic.target @1.812s
+-        sockets.target @1.811s
+-          snapd.socket @1.793s +17ms
+-            sysinit.target @1.775s
+-              systemd-resolved.service @1.499s +274ms
+-                systemd-tmpfiles-setup.service @1.388s +80ms
+-                  systemd-journal-flush.service @998ms +350ms
+-                    systemd-journald.service @748ms +164ms
+-                      systemd-journald.socket @658ms
+-                        -.mount @641ms
+-                          -.slice @642ms
+=== BOOT 2 FOR OPERATION terminate ===
+2.616s landscape-client.service
+ 926ms dev-sdd.device
+ 887ms snapd.seeded.service
+ 744ms snapd.service
+ 635ms systemd-journal-flush.service
+ 471ms wsl-pro.service
+ 453ms systemd-udevd.service
+ 251ms rsyslog.service
+ 203ms systemd-resolved.service
+ 166ms systemd-udev-trigger.service
+ 128ms dbus.service
+ 116ms keyboard-setup.service
+ 106ms systemd-journald.service
+  97ms systemd-logind.service
+  96ms e2scrub_reap.service
+  76ms systemd-tmpfiles-setup.service
+  68ms systemd-timesyncd.service
+  53ms console-setup.service
+  51ms systemd-timedated.service
+  50ms dev-hugepages.mount
+  49ms dev-mqueue.mount
+  48ms sys-kernel-debug.mount
+  48ms systemd-tmpfiles-setup-dev-early.service
+  46ms sys-kernel-tracing.mount
+  38ms kmod-static-nodes.service
+  36ms modprobe@configfs.service
+  35ms modprobe@dm_mod.service
+  35ms modprobe@drm.service
+  34ms modprobe@efi_pstore.service
+  34ms modprobe@fuse.service
+  34ms systemd-sysctl.service
+  33ms modprobe@loop.service
+  28ms setvtrgb.service
+  26ms systemd-modules-load.service
+  25ms systemd-user-sessions.service
+  25ms systemd-remount-fs.service
+  21ms snapd.socket
+  18ms systemd-update-utmp.service
+  15ms sys-fs-fuse-connections.mount
+  14ms systemd-tmpfiles-setup-dev.service
+  14ms sys-kernel-config.mount
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @4.806s
+-  multi-user.target @4.805s
+-    snapd.seeded.service @2.208s +887ms
+-      basic.target @2.160s
+-        sockets.target @2.159s
+-          snapd.socket @2.137s +21ms
+-            sysinit.target @2.123s
+-              systemd-resolved.service @1.918s +203ms
+-                systemd-tmpfiles-setup.service @1.811s +76ms
+-                  systemd-journal-flush.service @1.140s +635ms
+-                    systemd-journald.service @1.011s +106ms
+-                      systemd-journald.socket @952ms
+-                        system.slice @941ms
+-                          -.slice @940ms
+=== BOOT 3 FOR OPERATION terminate ===
+2.747s landscape-client.service
+1.531s dev-sdd.device
+1.487s systemd-journal-flush.service
+ 918ms snapd.seeded.service
+ 741ms snapd.service
+ 466ms wsl-pro.service
+ 411ms systemd-tmpfiles-setup.service
+ 243ms systemd-udev-trigger.service
+ 229ms systemd-udevd.service
+ 194ms rsyslog.service
+ 175ms systemd-resolved.service
+ 167ms keyboard-setup.service
+ 154ms systemd-journald.service
+ 126ms dbus.service
+  95ms systemd-logind.service
+  95ms dev-hugepages.mount
+  92ms dev-mqueue.mount
+  89ms sys-kernel-debug.mount
+  89ms sys-kernel-tracing.mount
+  89ms systemd-tmpfiles-setup-dev-early.service
+  83ms modprobe@dm_mod.service
+  83ms modprobe@drm.service
+  82ms modprobe@configfs.service
+  81ms modprobe@efi_pstore.service
+  81ms systemd-timedated.service
+  80ms kmod-static-nodes.service
+  79ms modprobe@fuse.service
+  77ms modprobe@loop.service
+  77ms systemd-timesyncd.service
+  75ms e2scrub_reap.service
+  63ms systemd-modules-load.service
+  60ms systemd-remount-fs.service
+  47ms systemd-sysctl.service
+  28ms systemd-update-utmp.service
+  24ms sys-fs-fuse-connections.mount
+  23ms console-setup.service
+  22ms setvtrgb.service
+  22ms sys-kernel-config.mount
+  21ms systemd-tmpfiles-setup-dev.service
+  19ms systemd-user-sessions.service
+  17ms snapd.socket
+   6ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @5.827s
+-  multi-user.target @5.827s
+-    snapd.seeded.service @3.103s +918ms
+-      basic.target @3.052s
+-        sockets.target @3.052s
+-          snapd.socket @3.033s +17ms
+-            sysinit.target @3.019s
+-              systemd-resolved.service @2.843s +175ms
+-                systemd-tmpfiles-setup.service @2.394s +411ms
+-                  systemd-journal-flush.service @886ms +1.487s
+-                    systemd-journald.service @658ms +154ms
+-                      systemd-journald.socket @595ms
+-                        -.mount @580ms
+-                          -.slice @580ms
+=== BOOT 4 FOR OPERATION terminate ===
+4.456s landscape-client.service
+2.922s snapd.seeded.service
+1.342s snapd.service
+1.030s wsl-pro.service
+ 929ms dev-sdd.device
+ 622ms systemd-journal-flush.service
+ 466ms systemd-udevd.service
+ 411ms systemd-resolved.service
+ 244ms rsyslog.service
+ 241ms systemd-timesyncd.service
+ 196ms dbus.service
+ 194ms systemd-udev-trigger.service
+ 125ms keyboard-setup.service
+ 117ms systemd-logind.service
+ 112ms systemd-journald.service
+  86ms e2scrub_reap.service
+  80ms systemd-update-utmp.service
+  65ms systemd-timedated.service
+  58ms systemd-tmpfiles-setup-dev.service
+  51ms dev-mqueue.mount
+  51ms dev-hugepages.mount
+  51ms sys-kernel-debug.mount
+  50ms sys-kernel-tracing.mount
+  45ms systemd-tmpfiles-setup.service
+  44ms systemd-tmpfiles-setup-dev-early.service
+  44ms kmod-static-nodes.service
+  44ms modprobe@efi_pstore.service
+  43ms modprobe@fuse.service
+  43ms modprobe@dm_mod.service
+  43ms modprobe@configfs.service
+  43ms modprobe@drm.service
+  42ms modprobe@loop.service
+  33ms systemd-sysctl.service
+  29ms systemd-modules-load.service
+  29ms systemd-remount-fs.service
+  27ms snapd.socket
+  25ms setvtrgb.service
+  22ms console-setup.service
+  19ms systemd-user-sessions.service
+  17ms sys-fs-fuse-connections.mount
+  16ms sys-kernel-config.mount
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @6.660s
+-  multi-user.target @6.659s
+-    snapd.seeded.service @2.227s +2.922s
+-      basic.target @2.176s
+-        sockets.target @2.176s
+-          snapd.socket @2.148s +27ms
+-            sysinit.target @2.133s
+-              systemd-resolved.service @1.720s +411ms
+-                systemd-tmpfiles-setup.service @1.670s +45ms
+-                  systemd-journal-flush.service @899ms +622ms
+-                    systemd-journald.service @721ms +112ms
+-                      systemd-journald.socket @680ms
+-                        -.mount @666ms
+-                          -.slice @665ms
+=== BOOT 5 FOR OPERATION terminate ===
+1.999s landscape-client.service
+ 730ms dev-sdd.device
+ 699ms snapd.seeded.service
+ 582ms snapd.service
+ 409ms wsl-pro.service
+ 328ms systemd-journal-flush.service
+ 307ms systemd-resolved.service
+ 274ms systemd-udevd.service
+ 253ms systemd-udev-trigger.service
+ 177ms rsyslog.service
+ 138ms systemd-timesyncd.service
+ 138ms keyboard-setup.service
+ 135ms systemd-journald.service
+ 125ms dbus.service
+  95ms systemd-logind.service
+  89ms systemd-tmpfiles-setup.service
+  70ms e2scrub_reap.service
+  58ms systemd-tmpfiles-setup-dev-early.service
+  58ms systemd-timedated.service
+  56ms systemd-update-utmp.service
+  53ms dev-hugepages.mount
+  52ms dev-mqueue.mount
+  51ms sys-kernel-debug.mount
+  50ms sys-kernel-tracing.mount
+  43ms kmod-static-nodes.service
+  42ms modprobe@configfs.service
+  41ms modprobe@dm_mod.service
+  40ms modprobe@drm.service
+  40ms modprobe@efi_pstore.service
+  38ms systemd-sysctl.service
+  34ms modprobe@fuse.service
+  34ms modprobe@loop.service
+  33ms systemd-tmpfiles-setup-dev.service
+  31ms systemd-modules-load.service
+  27ms systemd-remount-fs.service
+  24ms sys-fs-fuse-connections.mount
+  23ms sys-kernel-config.mount
+  22ms setvtrgb.service
+  20ms systemd-user-sessions.service
+  18ms snapd.socket
+  13ms console-setup.service
+   8ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.668s
+-  multi-user.target @3.667s
+-    snapd.seeded.service @1.698s +699ms
+-      basic.target @1.653s
+-        sockets.target @1.652s
+-          snapd.socket @1.632s +18ms
+-            sysinit.target @1.618s
+-              systemd-resolved.service @1.310s +307ms
+-                systemd-tmpfiles-setup.service @1.150s +89ms
+-                  systemd-journal-flush.service @794ms +328ms
+-                    systemd-journald.service @598ms +135ms
+-                      systemd-journald.socket @555ms
+-                        system.slice @541ms
+-                          -.slice @541ms
+=== BOOT 6 FOR OPERATION terminate ===
+2.058s landscape-client.service
+ 748ms snapd.seeded.service
+ 718ms dev-sdd.device
+ 613ms snapd.service
+ 421ms wsl-pro.service
+ 324ms systemd-journal-flush.service
+ 319ms systemd-resolved.service
+ 284ms systemd-udevd.service
+ 258ms systemd-udev-trigger.service
+ 192ms rsyslog.service
+ 164ms systemd-journald.service
+ 150ms keyboard-setup.service
+ 130ms dbus.service
+ 124ms systemd-timesyncd.service
+  97ms systemd-tmpfiles-setup.service
+  92ms systemd-logind.service
+  74ms e2scrub_reap.service
+  72ms dev-mqueue.mount
+  71ms dev-hugepages.mount
+  70ms sys-kernel-debug.mount
+  69ms sys-kernel-tracing.mount
+  67ms systemd-timedated.service
+  62ms kmod-static-nodes.service
+  61ms modprobe@configfs.service
+  61ms modprobe@dm_mod.service
+  60ms systemd-tmpfiles-setup-dev-early.service
+  60ms modprobe@drm.service
+  57ms modprobe@efi_pstore.service
+  54ms modprobe@fuse.service
+  49ms systemd-sysctl.service
+  47ms modprobe@loop.service
+  46ms systemd-update-utmp.service
+  41ms systemd-modules-load.service
+  39ms systemd-remount-fs.service
+  26ms snapd.socket
+  25ms systemd-tmpfiles-setup-dev.service
+  21ms systemd-user-sessions.service
+  21ms setvtrgb.service
+  19ms sys-fs-fuse-connections.mount
+  18ms sys-kernel-config.mount
+  17ms console-setup.service
+   8ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.759s
+-  multi-user.target @3.759s
+-    snapd.seeded.service @1.718s +748ms
+-      basic.target @1.685s
+-        sockets.target @1.685s
+-          snapd.socket @1.658s +26ms
+-            sysinit.target @1.645s
+-              systemd-resolved.service @1.325s +319ms
+-                systemd-tmpfiles-setup.service @1.176s +97ms
+-                  systemd-journal-flush.service @820ms +324ms
+-                    systemd-journald.service @585ms +164ms
+-                      systemd-journald.socket @548ms
+-                        -.mount @533ms
+-                          -.slice @534ms
+=== BOOT 7 FOR OPERATION terminate ===
+1.959s landscape-client.service
+ 722ms snapd.seeded.service
+ 644ms dev-sdd.device
+ 576ms snapd.service
+ 384ms wsl-pro.service
+ 313ms systemd-resolved.service
+ 267ms systemd-journal-flush.service
+ 235ms systemd-udev-trigger.service
+ 231ms systemd-udevd.service
+ 201ms rsyslog.service
+ 153ms dbus.service
+ 141ms e2scrub_reap.service
+ 130ms systemd-journald.service
+ 113ms systemd-timesyncd.service
+ 109ms keyboard-setup.service
+  96ms systemd-logind.service
+  92ms systemd-tmpfiles-setup.service
+  74ms systemd-timedated.service
+  52ms systemd-tmpfiles-setup-dev-early.service
+  50ms dev-hugepages.mount
+  50ms dev-mqueue.mount
+  49ms sys-kernel-debug.mount
+  49ms sys-kernel-tracing.mount
+  43ms modprobe@configfs.service
+  43ms kmod-static-nodes.service
+  42ms modprobe@dm_mod.service
+  42ms systemd-update-utmp.service
+  41ms modprobe@drm.service
+  35ms systemd-sysctl.service
+  35ms modprobe@loop.service
+  35ms modprobe@fuse.service
+  34ms modprobe@efi_pstore.service
+  33ms systemd-modules-load.service
+  32ms systemd-tmpfiles-setup-dev.service
+  31ms setvtrgb.service
+  29ms snapd.socket
+  29ms systemd-remount-fs.service
+  21ms sys-fs-fuse-connections.mount
+  21ms systemd-user-sessions.service
+  21ms sys-kernel-config.mount
+  13ms console-setup.service
+  11ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.595s
+-  multi-user.target @3.594s
+-    snapd.seeded.service @1.673s +722ms
+-      basic.target @1.595s
+-        sockets.target @1.593s
+-          snapd.socket @1.561s +29ms
+-            sysinit.target @1.526s
+-              systemd-resolved.service @1.209s +313ms
+-                systemd-tmpfiles-setup.service @1.029s +92ms
+-                  systemd-journal-flush.service @721ms +267ms
+-                    systemd-journald.service @540ms +130ms
+-                      systemd-journald.socket @501ms
+-                        system.slice @489ms
+-                          -.slice @488ms
+=== BOOT 8 FOR OPERATION terminate ===
+1.927s landscape-client.service
+ 704ms dev-sdd.device
+ 668ms snapd.seeded.service
+ 545ms snapd.service
+ 410ms wsl-pro.service
+ 308ms systemd-journal-flush.service
+ 233ms systemd-udev-trigger.service
+ 227ms systemd-udevd.service
+ 189ms rsyslog.service
+ 186ms systemd-resolved.service
+ 167ms systemd-journald.service
+ 163ms keyboard-setup.service
+ 112ms dbus.service
+  89ms systemd-logind.service
+  86ms systemd-timesyncd.service
+  83ms systemd-tmpfiles-setup.service
+  77ms systemd-tmpfiles-setup-dev-early.service
+  74ms dev-hugepages.mount
+  74ms dev-mqueue.mount
+  72ms sys-kernel-debug.mount
+  71ms systemd-sysctl.service
+  70ms sys-kernel-tracing.mount
+  68ms e2scrub_reap.service
+  58ms kmod-static-nodes.service
+  58ms systemd-timedated.service
+  57ms modprobe@configfs.service
+  56ms modprobe@dm_mod.service
+  55ms modprobe@drm.service
+  50ms modprobe@efi_pstore.service
+  50ms modprobe@fuse.service
+  44ms modprobe@loop.service
+  35ms systemd-modules-load.service
+  30ms systemd-remount-fs.service
+  28ms sys-fs-fuse-connections.mount
+  26ms sys-kernel-config.mount
+  24ms setvtrgb.service
+  21ms systemd-tmpfiles-setup-dev.service
+  20ms systemd-user-sessions.service
+  20ms snapd.socket
+  17ms console-setup.service
+  17ms systemd-update-utmp.service
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.981s
+-  multi-user.target @3.980s
+-    snapd.seeded.service @2.073s +668ms
+-      basic.target @2.000s
+-        sockets.target @2.000s
+-          snapd.socket @1.979s +20ms
+-            sysinit.target @1.966s
+-              systemd-resolved.service @1.779s +186ms
+-                systemd-tmpfiles-setup.service @1.679s +83ms
+-                  systemd-journal-flush.service @1.263s +308ms
+-                    systemd-journald.service @1.027s +167ms
+-                      systemd-journald.socket @961ms
+-                        system.slice @944ms
+-                          -.slice @944ms
+=== BOOT 9 FOR OPERATION terminate ===
+1.961s landscape-client.service
+ 805ms dev-sdd.device
+ 730ms snapd.seeded.service
+ 580ms snapd.service
+ 390ms wsl-pro.service
+ 386ms systemd-journal-flush.service
+ 272ms systemd-udevd.service
+ 243ms systemd-udev-trigger.service
+ 232ms systemd-resolved.service
+ 199ms rsyslog.service
+ 191ms systemd-journald.service
+ 151ms keyboard-setup.service
+ 139ms e2scrub_reap.service
+ 138ms systemd-tmpfiles-setup.service
+ 135ms systemd-timesyncd.service
+ 125ms dbus.service
+  92ms systemd-logind.service
+  83ms dev-mqueue.mount
+  80ms dev-hugepages.mount
+  79ms sys-kernel-tracing.mount
+  79ms sys-kernel-debug.mount
+  66ms kmod-static-nodes.service
+  65ms modprobe@configfs.service
+  64ms modprobe@drm.service
+  64ms modprobe@dm_mod.service
+  59ms modprobe@fuse.service
+  59ms modprobe@efi_pstore.service
+  58ms modprobe@loop.service
+  54ms systemd-modules-load.service
+  53ms systemd-timedated.service
+  51ms sys-fs-fuse-connections.mount
+  48ms systemd-update-utmp.service
+  45ms systemd-remount-fs.service
+  45ms systemd-tmpfiles-setup-dev-early.service
+  43ms systemd-sysctl.service
+  42ms sys-kernel-config.mount
+  28ms snapd.socket
+  22ms setvtrgb.service
+  22ms systemd-tmpfiles-setup-dev.service
+  20ms systemd-user-sessions.service
+  19ms console-setup.service
+   8ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.905s
+-  multi-user.target @3.905s
+-    snapd.seeded.service @1.976s +730ms
+-      basic.target @1.908s
+-        sockets.target @1.906s
+-          snapd.socket @1.876s +28ms
+-            sysinit.target @1.865s
+-              systemd-resolved.service @1.632s +232ms
+-                systemd-tmpfiles-setup.service @1.452s +138ms
+-                  systemd-journal-flush.service @919ms +386ms
+-                    systemd-journald.service @671ms +191ms
+-                      systemd-journald.socket @606ms
+-                        system.slice @591ms
+-                          -.slice @590ms
+=== BOOT 10 FOR OPERATION terminate ===
+2.009s landscape-client.service
+ 746ms dev-sdd.device
+ 684ms snapd.seeded.service
+ 560ms snapd.service
+ 404ms systemd-journal-flush.service
+ 383ms wsl-pro.service
+ 303ms systemd-udevd.service
+ 254ms systemd-udev-trigger.service
+ 225ms systemd-resolved.service
+ 203ms systemd-journald.service
+ 179ms rsyslog.service
+ 138ms keyboard-setup.service
+ 109ms dbus.service
+  97ms systemd-logind.service
+  73ms e2scrub_reap.service
+  69ms systemd-tmpfiles-setup-dev-early.service
+  69ms systemd-timesyncd.service
+  64ms systemd-sysctl.service
+  55ms systemd-timedated.service
+  55ms dev-hugepages.mount
+  54ms dev-mqueue.mount
+  54ms sys-kernel-debug.mount
+  54ms sys-kernel-tracing.mount
+  48ms modprobe@efi_pstore.service
+  47ms modprobe@configfs.service
+  46ms modprobe@dm_mod.service
+  46ms kmod-static-nodes.service
+  46ms modprobe@drm.service
+  44ms modprobe@fuse.service
+  43ms modprobe@loop.service
+  42ms systemd-modules-load.service
+  40ms systemd-remount-fs.service
+  39ms systemd-tmpfiles-setup.service
+  36ms sys-fs-fuse-connections.mount
+  35ms sys-kernel-config.mount
+  28ms setvtrgb.service
+  26ms systemd-user-sessions.service
+  24ms snapd.socket
+  19ms console-setup.service
+  18ms systemd-update-utmp.service
+  17ms systemd-tmpfiles-setup-dev.service
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.663s
+-  multi-user.target @3.662s
+-    snapd.seeded.service @1.675s +684ms
+-      basic.target @1.633s
+-        sockets.target @1.632s
+-          snapd.socket @1.604s +24ms
+-            sysinit.target @1.585s
+-              systemd-resolved.service @1.358s +225ms
+-                systemd-tmpfiles-setup.service @1.315s +39ms
+-                  systemd-journal-flush.service @818ms +404ms
+-                    systemd-journald.service @580ms +203ms
+-                      systemd-journald.socket @546ms
+-                        -.mount @534ms
+-                          -.slice @533ms
+=== BOOT 11 FOR OPERATION terminate ===
+1.880s landscape-client.service
+ 736ms dev-sdd.device
+ 678ms snapd.seeded.service
+ 543ms snapd.service
+ 380ms wsl-pro.service
+ 344ms systemd-journal-flush.service
+ 257ms systemd-udevd.service
+ 234ms systemd-udev-trigger.service
+ 233ms systemd-resolved.service
+ 206ms systemd-journald.service
+ 174ms rsyslog.service
+ 134ms systemd-timesyncd.service
+ 127ms keyboard-setup.service
+ 117ms dbus.service
+  99ms systemd-logind.service
+  82ms e2scrub_reap.service
+  65ms dev-mqueue.mount
+  65ms dev-hugepages.mount
+  64ms sys-kernel-debug.mount
+  63ms sys-kernel-tracing.mount
+  56ms kmod-static-nodes.service
+  55ms systemd-tmpfiles-setup.service
+  54ms modprobe@configfs.service
+  52ms modprobe@dm_mod.service
+  52ms systemd-tmpfiles-setup-dev-early.service
+  50ms modprobe@drm.service
+  50ms modprobe@efi_pstore.service
+  48ms systemd-timedated.service
+  42ms modprobe@loop.service
+  42ms modprobe@fuse.service
+  42ms systemd-update-utmp.service
+  40ms systemd-sysctl.service
+  38ms systemd-modules-load.service
+  35ms systemd-remount-fs.service
+  22ms sys-fs-fuse-connections.mount
+  21ms sys-kernel-config.mount
+  20ms systemd-user-sessions.service
+  19ms systemd-update-utmp-runlevel.service
+  18ms systemd-tmpfiles-setup-dev.service
+  18ms setvtrgb.service
+  17ms console-setup.service
+  10ms snapd.socket
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.459s
+-  multi-user.target @3.458s
+-    snapd.seeded.service @1.595s +678ms
+-      basic.target @1.564s
+-        sockets.target @1.564s
+-          snapd.socket @1.553s +10ms
+-            sysinit.target @1.542s
+-              systemd-resolved.service @1.308s +233ms
+-                systemd-tmpfiles-setup.service @1.211s +55ms
+-                  systemd-journal-flush.service @804ms +344ms
+-                    systemd-journald.service @561ms +206ms
+-                      systemd-journald.socket @512ms
+-                        system.slice @495ms
+-                          -.slice @494ms
+=== BOOT 12 FOR OPERATION terminate ===
+2.030s landscape-client.service
+ 819ms snapd.seeded.service
+ 731ms dev-sdd.device
+ 600ms snapd.service
+ 430ms wsl-pro.service
+ 356ms systemd-journal-flush.service
+ 257ms systemd-udevd.service
+ 228ms systemd-udev-trigger.service
+ 215ms systemd-journald.service
+ 189ms systemd-resolved.service
+ 188ms rsyslog.service
+ 176ms keyboard-setup.service
+ 116ms systemd-timedated.service
+ 111ms dbus.service
+  87ms dev-mqueue.mount
+  86ms sys-kernel-debug.mount
+  86ms sys-kernel-tracing.mount
+  86ms systemd-logind.service
+  84ms dev-hugepages.mount
+  83ms modprobe@drm.service
+  83ms modprobe@fuse.service
+  83ms modprobe@dm_mod.service
+  83ms modprobe@efi_pstore.service
+  82ms modprobe@configfs.service
+  80ms kmod-static-nodes.service
+  79ms modprobe@loop.service
+  71ms e2scrub_reap.service
+  70ms systemd-timesyncd.service
+  55ms systemd-modules-load.service
+  48ms systemd-remount-fs.service
+  41ms systemd-tmpfiles-setup-dev-early.service
+  40ms systemd-tmpfiles-setup.service
+  36ms systemd-sysctl.service
+  30ms snapd.socket
+  25ms sys-fs-fuse-connections.mount
+  23ms sys-kernel-config.mount
+  23ms systemd-tmpfiles-setup-dev.service
+  22ms console-setup.service
+  21ms setvtrgb.service
+  20ms systemd-update-utmp.service
+  19ms systemd-user-sessions.service
+  12ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.655s
+-  multi-user.target @3.655s
+-    snapd.seeded.service @1.647s +819ms
+-      basic.target @1.607s
+-        sockets.target @1.606s
+-          snapd.socket @1.574s +30ms
+-            sysinit.target @1.562s
+-              systemd-resolved.service @1.371s +189ms
+-                systemd-tmpfiles-setup.service @1.327s +40ms
+-                  systemd-journal-flush.service @867ms +356ms
+-                    systemd-journald.service @608ms +215ms
+-                      systemd-journald.socket @553ms
+-                        -.mount @539ms
+-                          -.slice @538ms
+=== BOOT 13 FOR OPERATION terminate ===
+1.861s landscape-client.service
+ 831ms snapd.seeded.service
+ 793ms dev-sdd.device
+ 653ms snapd.service
+ 546ms systemd-journal-flush.service
+ 397ms wsl-pro.service
+ 386ms systemd-udevd.service
+ 280ms systemd-resolved.service
+ 188ms systemd-udev-trigger.service
+ 182ms rsyslog.service
+ 180ms systemd-journald.service
+ 149ms dbus.service
+ 129ms systemd-timesyncd.service
+ 128ms keyboard-setup.service
+ 123ms systemd-tmpfiles-setup.service
+  94ms e2scrub_reap.service
+  84ms systemd-logind.service
+  67ms dev-hugepages.mount
+  66ms dev-mqueue.mount
+  63ms sys-kernel-debug.mount
+  62ms sys-kernel-tracing.mount
+  58ms systemd-update-utmp.service
+  56ms systemd-timedated.service
+  51ms kmod-static-nodes.service
+  50ms modprobe@dm_mod.service
+  50ms modprobe@configfs.service
+  48ms modprobe@drm.service
+  46ms systemd-tmpfiles-setup-dev-early.service
+  45ms modprobe@efi_pstore.service
+  43ms modprobe@fuse.service
+  42ms modprobe@loop.service
+  37ms systemd-modules-load.service
+  32ms systemd-remount-fs.service
+  31ms snapd.socket
+  31ms systemd-sysctl.service
+  24ms systemd-user-sessions.service
+  20ms sys-fs-fuse-connections.mount
+  19ms sys-kernel-config.mount
+  18ms setvtrgb.service
+  16ms console-setup.service
+  14ms systemd-tmpfiles-setup-dev.service
+   6ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.845s
+-  multi-user.target @3.844s
+-    snapd.seeded.service @2.006s +831ms
+-      basic.target @1.962s
+-        sockets.target @1.961s
+-          snapd.socket @1.926s +31ms
+-            sysinit.target @1.912s
+-              systemd-resolved.service @1.630s +280ms
+-                systemd-tmpfiles-setup.service @1.462s +123ms
+-                  systemd-journal-flush.service @889ms +546ms
+-                    systemd-journald.service @674ms +180ms
+-                      systemd-journald.socket @640ms
+-                        -.mount @626ms
+-                          -.slice @626ms
+=== BOOT 14 FOR OPERATION terminate ===
+1.671s landscape-client.service
+ 781ms dev-sdd.device
+ 679ms snapd.seeded.service
+ 544ms snapd.service
+ 542ms systemd-journal-flush.service
+ 438ms systemd-udevd.service
+ 408ms wsl-pro.service
+ 207ms systemd-journald.service
+ 182ms rsyslog.service
+ 177ms systemd-udev-trigger.service
+ 165ms systemd-resolved.service
+ 119ms dbus.service
+ 105ms keyboard-setup.service
+  96ms systemd-logind.service
+  76ms e2scrub_reap.service
+  70ms systemd-timesyncd.service
+  55ms systemd-timedated.service
+  46ms systemd-tmpfiles-setup.service
+  43ms dev-hugepages.mount
+  43ms dev-mqueue.mount
+  42ms sys-kernel-debug.mount
+  41ms sys-kernel-tracing.mount
+  36ms console-setup.service
+  36ms snapd.socket
+  36ms systemd-tmpfiles-setup-dev-early.service
+  34ms kmod-static-nodes.service
+  34ms modprobe@configfs.service
+  33ms modprobe@dm_mod.service
+  33ms modprobe@drm.service
+  33ms modprobe@efi_pstore.service
+  33ms modprobe@fuse.service
+  32ms modprobe@loop.service
+  31ms systemd-sysctl.service
+  28ms systemd-modules-load.service
+  24ms systemd-remount-fs.service
+  23ms setvtrgb.service
+  20ms systemd-user-sessions.service
+  19ms systemd-update-utmp.service
+  19ms sys-fs-fuse-connections.mount
+  18ms sys-kernel-config.mount
+  16ms systemd-tmpfiles-setup-dev.service
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.422s
+-  multi-user.target @3.421s
+-    snapd.seeded.service @1.768s +679ms
+-      basic.target @1.727s
+-        sockets.target @1.726s
+-          snapd.socket @1.689s +36ms
+-            sysinit.target @1.676s
+-              systemd-resolved.service @1.509s +165ms
+-                systemd-tmpfiles-setup.service @1.441s +46ms
+-                  systemd-journal-flush.service @849ms +542ms
+-                    systemd-journald.service @620ms +207ms
+-                      systemd-journald.socket @575ms
+-                        system.slice @563ms
+-                          -.slice @564ms
+=== BOOT 15 FOR OPERATION terminate ===
+1.894s landscape-client.service
+ 687ms snapd.seeded.service
+ 546ms snapd.service
+ 539ms dev-sdd.device
+ 363ms wsl-pro.service
+ 267ms systemd-udev-trigger.service
+ 266ms systemd-journal-flush.service
+ 249ms systemd-resolved.service
+ 213ms systemd-journald.service
+ 185ms systemd-udevd.service
+ 170ms rsyslog.service
+ 123ms dbus.service
+ 122ms systemd-timesyncd.service
+ 120ms keyboard-setup.service
+  91ms systemd-tmpfiles-setup.service
+  86ms systemd-logind.service
+  75ms e2scrub_reap.service
+  55ms systemd-tmpfiles-setup-dev-early.service
+  54ms systemd-update-utmp.service
+  52ms dev-hugepages.mount
+  51ms dev-mqueue.mount
+  51ms systemd-timedated.service
+  50ms sys-kernel-debug.mount
+  49ms sys-kernel-tracing.mount
+  48ms systemd-sysctl.service
+  42ms modprobe@configfs.service
+  41ms kmod-static-nodes.service
+  40ms modprobe@dm_mod.service
+  40ms modprobe@drm.service
+  35ms modprobe@efi_pstore.service
+  34ms modprobe@fuse.service
+  33ms modprobe@loop.service
+  29ms systemd-modules-load.service
+  25ms systemd-remount-fs.service
+  25ms systemd-tmpfiles-setup-dev.service
+  23ms console-setup.service
+  23ms systemd-user-sessions.service
+  20ms sys-kernel-config.mount
+  20ms sys-fs-fuse-connections.mount
+  20ms setvtrgb.service
+  18ms snapd.socket
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.468s
+-  multi-user.target @3.467s
+-    snapd.seeded.service @1.593s +687ms
+-      basic.target @1.556s
+-        sockets.target @1.555s
+-          snapd.socket @1.535s +18ms
+-            sysinit.target @1.520s
+-              systemd-resolved.service @1.270s +249ms
+-                systemd-tmpfiles-setup.service @1.153s +91ms
+-                  systemd-journal-flush.service @822ms +266ms
+-                    systemd-journald.service @578ms +213ms
+-                      systemd-journald.socket @539ms
+-                        system.slice @524ms
+-                          -.slice @524ms
+=== BOOT 16 FOR OPERATION terminate ===
+1.806s landscape-client.service
+ 667ms snapd.seeded.service
+ 549ms snapd.service
+ 507ms dev-sdd.device
+ 384ms wsl-pro.service
+ 315ms systemd-resolved.service
+ 281ms systemd-journal-flush.service
+ 248ms systemd-udev-trigger.service
+ 199ms systemd-journald.service
+ 172ms rsyslog.service
+ 172ms systemd-udevd.service
+ 148ms keyboard-setup.service
+ 139ms systemd-timesyncd.service
+ 111ms dbus.service
+  88ms systemd-logind.service
+  67ms e2scrub_reap.service
+  53ms systemd-timedated.service
+  52ms systemd-update-utmp.service
+  49ms sys-kernel-tracing.mount
+  47ms systemd-tmpfiles-setup.service
+  46ms systemd-tmpfiles-setup-dev-early.service
+  46ms sys-kernel-debug.mount
+  46ms dev-mqueue.mount
+  45ms dev-hugepages.mount
+  43ms kmod-static-nodes.service
+  42ms modprobe@configfs.service
+  42ms modprobe@dm_mod.service
+  40ms modprobe@drm.service
+  36ms systemd-sysctl.service
+  35ms modprobe@efi_pstore.service
+  34ms modprobe@fuse.service
+  34ms modprobe@loop.service
+  32ms systemd-modules-load.service
+  31ms snapd.socket
+  30ms systemd-remount-fs.service
+  26ms console-setup.service
+  23ms systemd-tmpfiles-setup-dev.service
+  21ms systemd-user-sessions.service
+  21ms setvtrgb.service
+  16ms sys-kernel-config.mount
+  14ms sys-fs-fuse-connections.mount
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.420s
+-  multi-user.target @3.419s
+-    snapd.seeded.service @1.634s +667ms
+-      basic.target @1.599s
+-        sockets.target @1.599s
+-          snapd.socket @1.566s +31ms
+-            sysinit.target @1.554s
+-              systemd-resolved.service @1.237s +315ms
+-                systemd-tmpfiles-setup.service @1.153s +47ms
+-                  systemd-journal-flush.service @814ms +281ms
+-                    systemd-journald.service @564ms +199ms
+-                      systemd-journald.socket @533ms
+-                        -.mount @522ms
+-                          -.slice @520ms
+=== BOOT 17 FOR OPERATION terminate ===
+1.975s landscape-client.service
+ 735ms snapd.seeded.service
+ 626ms snapd.service
+ 609ms dev-sdd.device
+ 435ms wsl-pro.service
+ 313ms systemd-journal-flush.service
+ 240ms systemd-udev-trigger.service
+ 219ms systemd-journald.service
+ 207ms rsyslog.service
+ 195ms systemd-udevd.service
+ 168ms systemd-resolved.service
+ 143ms e2scrub_reap.service
+ 113ms dbus.service
+ 110ms keyboard-setup.service
+ 102ms systemd-logind.service
+  76ms systemd-timesyncd.service
+  54ms dev-hugepages.mount
+  54ms dev-mqueue.mount
+  54ms sys-kernel-debug.mount
+  53ms sys-kernel-tracing.mount
+  50ms systemd-tmpfiles-setup-dev-early.service
+  48ms systemd-timedated.service
+  46ms kmod-static-nodes.service
+  45ms modprobe@configfs.service
+  45ms modprobe@dm_mod.service
+  42ms modprobe@drm.service
+  42ms systemd-tmpfiles-setup.service
+  39ms modprobe@efi_pstore.service
+  38ms modprobe@fuse.service
+  37ms modprobe@loop.service
+  36ms systemd-modules-load.service
+  33ms systemd-user-sessions.service
+  32ms systemd-sysctl.service
+  30ms systemd-remount-fs.service
+  27ms snapd.socket
+  24ms console-setup.service
+  23ms sys-fs-fuse-connections.mount
+  22ms setvtrgb.service
+  22ms sys-kernel-config.mount
+  21ms systemd-update-utmp.service
+  19ms systemd-tmpfiles-setup-dev.service
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.431s
+-  multi-user.target @3.431s
+-    snapd.seeded.service @1.492s +735ms
+-      basic.target @1.428s
+-        sockets.target @1.427s
+-          snapd.socket @1.398s +27ms
+-            sysinit.target @1.385s
+-              systemd-resolved.service @1.215s +168ms
+-                systemd-tmpfiles-setup.service @1.169s +42ms
+-                  systemd-journal-flush.service @823ms +313ms
+-                    systemd-journald.service @560ms +219ms
+-                      systemd-journald.socket @514ms
+-                        -.mount @500ms
+-                          -.slice @499ms
+=== BOOT 18 FOR OPERATION terminate ===
+1.875s landscape-client.service
+ 693ms snapd.seeded.service
+ 585ms dev-sdd.device
+ 574ms snapd.service
+ 427ms wsl-pro.service
+ 271ms systemd-udev-trigger.service
+ 241ms systemd-journal-flush.service
+ 239ms systemd-journald.service
+ 202ms rsyslog.service
+ 172ms systemd-resolved.service
+ 171ms systemd-udevd.service
+ 127ms dbus.service
+ 122ms keyboard-setup.service
+ 100ms e2scrub_reap.service
+  99ms systemd-logind.service
+  69ms systemd-timesyncd.service
+  64ms systemd-tmpfiles-setup-dev-early.service
+  58ms systemd-sysctl.service
+  52ms dev-hugepages.mount
+  52ms dev-mqueue.mount
+  52ms sys-kernel-debug.mount
+  50ms sys-kernel-tracing.mount
+  48ms systemd-timedated.service
+  42ms systemd-tmpfiles-setup.service
+  42ms kmod-static-nodes.service
+  41ms modprobe@drm.service
+  41ms modprobe@dm_mod.service
+  40ms modprobe@configfs.service
+  39ms sys-kernel-config.mount
+  35ms modprobe@efi_pstore.service
+  35ms modprobe@fuse.service
+  34ms modprobe@loop.service
+  32ms systemd-modules-load.service
+  31ms sys-fs-fuse-connections.mount
+  31ms systemd-remount-fs.service
+  30ms systemd-user-sessions.service
+  29ms snapd.socket
+  25ms setvtrgb.service
+  21ms systemd-update-utmp.service
+  17ms console-setup.service
+  12ms systemd-tmpfiles-setup-dev.service
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.314s
+-  multi-user.target @3.313s
+-    snapd.seeded.service @1.461s +693ms
+-      basic.target @1.418s
+-        sockets.target @1.417s
+-          snapd.socket @1.387s +29ms
+-            sysinit.target @1.371s
+-              systemd-resolved.service @1.198s +172ms
+-                systemd-tmpfiles-setup.service @1.152s +42ms
+-                  systemd-journal-flush.service @880ms +241ms
+-                    systemd-journald.service @574ms +239ms
+-                      systemd-journald.socket @541ms
+-                        -.mount @529ms
+-                          -.slice @529ms
+=== BOOT 19 FOR OPERATION terminate ===
+1.961s landscape-client.service
+ 725ms dev-sdd.device
+ 670ms snapd.seeded.service
+ 549ms snapd.service
+ 378ms systemd-journal-flush.service
+ 374ms wsl-pro.service
+ 330ms systemd-resolved.service
+ 261ms systemd-udevd.service
+ 254ms systemd-udev-trigger.service
+ 251ms systemd-journald.service
+ 179ms rsyslog.service
+ 155ms systemd-timesyncd.service
+ 144ms keyboard-setup.service
+ 115ms dbus.service
+ 106ms systemd-tmpfiles-setup.service
+  89ms systemd-logind.service
+  78ms sys-kernel-tracing.mount
+  78ms sys-kernel-debug.mount
+  77ms dev-mqueue.mount
+  74ms dev-hugepages.mount
+  71ms systemd-tmpfiles-setup-dev-early.service
+  67ms kmod-static-nodes.service
+  67ms systemd-sysctl.service
+  64ms e2scrub_reap.service
+  63ms modprobe@configfs.service
+  59ms modprobe@drm.service
+  59ms modprobe@dm_mod.service
+  56ms modprobe@efi_pstore.service
+  53ms systemd-timedated.service
+  51ms modprobe@fuse.service
+  50ms modprobe@loop.service
+  47ms systemd-modules-load.service
+  46ms systemd-update-utmp.service
+  45ms systemd-remount-fs.service
+  36ms sys-fs-fuse-connections.mount
+  35ms sys-kernel-config.mount
+  24ms systemd-update-utmp-runlevel.service
+  23ms snapd.socket
+  22ms setvtrgb.service
+  22ms console-setup.service
+  18ms systemd-tmpfiles-setup-dev.service
+  17ms systemd-user-sessions.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.782s
+-  multi-user.target @3.781s
+-    snapd.seeded.service @1.838s +670ms
+-      basic.target @1.789s
+-        sockets.target @1.786s
+-          snapd.socket @1.754s +23ms
+-            sysinit.target @1.740s
+-              systemd-resolved.service @1.408s +330ms
+-                systemd-tmpfiles-setup.service @1.273s +106ms
+-                  systemd-journal-flush.service @834ms +378ms
+-                    systemd-journald.service @554ms +251ms
+-                      systemd-journald.socket @515ms
+-                        -.mount @501ms
+-                          -.slice @501ms
+=== BOOT 20 FOR OPERATION terminate ===
+1.866s landscape-client.service
+ 647ms snapd.seeded.service
+ 544ms snapd.service
+ 534ms dev-sdd.device
+ 412ms wsl-pro.service
+ 269ms systemd-journal-flush.service
+ 244ms systemd-journald.service
+ 244ms systemd-udev-trigger.service
+ 193ms systemd-resolved.service
+ 170ms rsyslog.service
+ 147ms systemd-udevd.service
+ 132ms keyboard-setup.service
+ 115ms dbus.service
+  90ms systemd-logind.service
+  72ms systemd-timesyncd.service
+  68ms e2scrub_reap.service
+  64ms dev-hugepages.mount
+  64ms dev-mqueue.mount
+  63ms sys-kernel-debug.mount
+  62ms systemd-tmpfiles-setup-dev-early.service
+  62ms sys-kernel-tracing.mount
+  54ms modprobe@drm.service
+  53ms modprobe@dm_mod.service
+  53ms kmod-static-nodes.service
+  52ms modprobe@configfs.service
+  48ms systemd-timedated.service
+  46ms systemd-sysctl.service
+  45ms modprobe@efi_pstore.service
+  43ms modprobe@fuse.service
+  40ms modprobe@loop.service
+  39ms systemd-tmpfiles-setup.service
+  37ms sys-fs-fuse-connections.mount
+  36ms systemd-modules-load.service
+  35ms sys-kernel-config.mount
+  31ms systemd-remount-fs.service
+  20ms setvtrgb.service
+  20ms snapd.socket
+  20ms systemd-update-utmp.service
+  17ms console-setup.service
+  16ms systemd-tmpfiles-setup-dev.service
+  15ms systemd-user-sessions.service
+   8ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.271s
+-  multi-user.target @3.271s
+-    snapd.seeded.service @1.425s +647ms
+-      basic.target @1.391s
+-        sockets.target @1.390s
+-          snapd.socket @1.369s +20ms
+-            sysinit.target @1.355s
+-              systemd-resolved.service @1.160s +193ms
+-                systemd-tmpfiles-setup.service @1.117s +39ms
+-                  systemd-journal-flush.service @827ms +269ms
+-                    systemd-journald.service @558ms +244ms
+-                      systemd-journald.socket @520ms
+-                        -.mount @504ms
+-                          -.slice @504ms
+=== BOOT 21 FOR OPERATION terminate ===
+1.857s landscape-client.service
+ 674ms snapd.seeded.service
+ 577ms dev-sdd.device
+ 559ms snapd.service
+ 388ms wsl-pro.service
+ 314ms systemd-journal-flush.service
+ 286ms systemd-resolved.service
+ 273ms systemd-udev-trigger.service
+ 248ms systemd-journald.service
+ 179ms rsyslog.service
+ 174ms systemd-timesyncd.service
+ 149ms systemd-udevd.service
+ 136ms keyboard-setup.service
+ 118ms systemd-tmpfiles-setup.service
+ 113ms dbus.service
+  98ms systemd-logind.service
+  88ms e2scrub_reap.service
+  61ms systemd-tmpfiles-setup-dev-early.service
+  55ms systemd-timedated.service
+  50ms dev-hugepages.mount
+  50ms dev-mqueue.mount
+  49ms sys-kernel-debug.mount
+  48ms sys-kernel-tracing.mount
+  47ms systemd-update-utmp.service
+  45ms systemd-sysctl.service
+  38ms kmod-static-nodes.service
+  37ms modprobe@configfs.service
+  36ms modprobe@dm_mod.service
+  36ms modprobe@drm.service
+  35ms modprobe@efi_pstore.service
+  34ms modprobe@fuse.service
+  32ms modprobe@loop.service
+  32ms snapd.socket
+  27ms systemd-modules-load.service
+  27ms sys-kernel-config.mount
+  26ms systemd-tmpfiles-setup-dev.service
+  26ms systemd-remount-fs.service
+  25ms setvtrgb.service
+  24ms sys-fs-fuse-connections.mount
+  23ms systemd-user-sessions.service
+  19ms console-setup.service
+   6ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.587s
+-  multi-user.target @3.586s
+-    snapd.seeded.service @1.750s +674ms
+-      basic.target @1.708s
+-        sockets.target @1.707s
+-          snapd.socket @1.675s +32ms
+-            sysinit.target @1.662s
+-              systemd-resolved.service @1.375s +286ms
+-                systemd-tmpfiles-setup.service @1.211s +118ms
+-                  systemd-journal-flush.service @862ms +314ms
+-                    systemd-journald.service @559ms +248ms
+-                      systemd-journald.socket @516ms
+-                        system.slice @504ms
+-                          -.slice @504ms
+=== BOOT 22 FOR OPERATION terminate ===
+1.907s landscape-client.service
+1.703s systemd-journal-flush.service
+ 724ms snapd.seeded.service
+ 622ms snapd.service
+ 472ms dev-sdd.device
+ 400ms wsl-pro.service
+ 270ms systemd-udev-trigger.service
+ 250ms systemd-journald.service
+ 172ms systemd-resolved.service
+ 164ms rsyslog.service
+ 140ms systemd-udevd.service
+ 122ms dbus.service
+ 118ms keyboard-setup.service
+  87ms systemd-logind.service
+  78ms systemd-timesyncd.service
+  72ms e2scrub_reap.service
+  63ms systemd-tmpfiles-setup.service
+  51ms dev-hugepages.mount
+  50ms dev-mqueue.mount
+  49ms sys-kernel-debug.mount
+  48ms sys-kernel-tracing.mount
+  45ms systemd-tmpfiles-setup-dev-early.service
+  44ms systemd-timedated.service
+  41ms kmod-static-nodes.service
+  41ms modprobe@configfs.service
+  40ms modprobe@dm_mod.service
+  39ms modprobe@drm.service
+  36ms systemd-sysctl.service
+  35ms modprobe@efi_pstore.service
+  34ms modprobe@fuse.service
+  34ms modprobe@loop.service
+  32ms systemd-update-utmp.service
+  32ms systemd-modules-load.service
+  31ms systemd-remount-fs.service
+  27ms systemd-tmpfiles-setup-dev.service
+  23ms setvtrgb.service
+  22ms snapd.socket
+  20ms console-setup.service
+  18ms systemd-user-sessions.service
+  18ms sys-fs-fuse-connections.mount
+  17ms sys-kernel-config.mount
+  13ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @4.818s
+-  multi-user.target @4.817s
+-    snapd.seeded.service @2.927s +724ms
+-      basic.target @2.896s
+-        sockets.target @2.896s
+-          snapd.socket @2.873s +22ms
+-            sysinit.target @2.861s
+-              systemd-resolved.service @2.687s +172ms
+-                systemd-tmpfiles-setup.service @2.587s +63ms
+-                  systemd-journal-flush.service @851ms +1.703s
+-                    systemd-journald.service @545ms +250ms
+-                      systemd-journald.socket @523ms
+-                        -.mount @511ms
+-                          -.slice @510ms
+=== BOOT 23 FOR OPERATION terminate ===
+1.694s landscape-client.service
+ 657ms snapd.seeded.service
+ 536ms snapd.service
+ 501ms dev-sdd.device
+ 378ms wsl-pro.service
+ 285ms systemd-journal-flush.service
+ 251ms systemd-udev-trigger.service
+ 248ms systemd-journald.service
+ 167ms systemd-resolved.service
+ 167ms rsyslog.service
+ 123ms systemd-udevd.service
+ 122ms keyboard-setup.service
+ 108ms dbus.service
+  86ms systemd-logind.service
+  67ms e2scrub_reap.service
+  66ms systemd-timedated.service
+  63ms systemd-timesyncd.service
+  59ms systemd-tmpfiles-setup.service
+  54ms systemd-tmpfiles-setup-dev-early.service
+  51ms dev-hugepages.mount
+  50ms dev-mqueue.mount
+  49ms sys-kernel-debug.mount
+  49ms sys-kernel-tracing.mount
+  45ms systemd-sysctl.service
+  42ms kmod-static-nodes.service
+  42ms modprobe@configfs.service
+  42ms modprobe@dm_mod.service
+  40ms modprobe@drm.service
+  39ms modprobe@efi_pstore.service
+  36ms modprobe@fuse.service
+  36ms modprobe@loop.service
+  32ms sys-fs-fuse-connections.mount
+  32ms systemd-modules-load.service
+  31ms sys-kernel-config.mount
+  29ms systemd-remount-fs.service
+  21ms snapd.socket
+  20ms setvtrgb.service
+  16ms systemd-update-utmp.service
+  16ms systemd-tmpfiles-setup-dev.service
+  13ms console-setup.service
+  13ms systemd-user-sessions.service
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.123s
+-  multi-user.target @3.122s
+-    snapd.seeded.service @1.447s +657ms
+-      basic.target @1.413s
+-        sockets.target @1.413s
+-          snapd.socket @1.390s +21ms
+-            sysinit.target @1.377s
+-              systemd-resolved.service @1.207s +167ms
+-                systemd-tmpfiles-setup.service @1.144s +59ms
+-                  systemd-journal-flush.service @840ms +285ms
+-                    systemd-journald.service @552ms +248ms
+-                      systemd-journald.socket @525ms
+-                        -.mount @511ms
+-                          -.slice @511ms
+=== BOOT 24 FOR OPERATION terminate ===
+1.844s landscape-client.service
+ 670ms snapd.seeded.service
+ 545ms snapd.service
+ 522ms dev-sdd.device
+ 373ms wsl-pro.service
+ 274ms systemd-journal-flush.service
+ 258ms systemd-udev-trigger.service
+ 255ms systemd-journald.service
+ 190ms rsyslog.service
+ 172ms systemd-resolved.service
+ 147ms systemd-udevd.service
+ 133ms e2scrub_reap.service
+ 124ms dbus.service
+ 118ms keyboard-setup.service
+  92ms systemd-logind.service
+  73ms systemd-timesyncd.service
+  53ms systemd-timedated.service
+  50ms systemd-tmpfiles-setup-dev-early.service
+  50ms systemd-tmpfiles-setup.service
+  48ms dev-hugepages.mount
+  47ms dev-mqueue.mount
+  46ms sys-kernel-debug.mount
+  45ms sys-kernel-tracing.mount
+  39ms modprobe@dm_mod.service
+  39ms kmod-static-nodes.service
+  39ms modprobe@configfs.service
+  39ms modprobe@drm.service
+  37ms systemd-sysctl.service
+  37ms modprobe@efi_pstore.service
+  32ms modprobe@fuse.service
+  31ms modprobe@loop.service
+  28ms systemd-modules-load.service
+  27ms systemd-remount-fs.service
+  25ms sys-fs-fuse-connections.mount
+  25ms snapd.socket
+  24ms console-setup.service
+  23ms systemd-tmpfiles-setup-dev.service
+  23ms sys-kernel-config.mount
+  21ms systemd-update-utmp.service
+  20ms setvtrgb.service
+  18ms systemd-user-sessions.service
+  13ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.270s
+-  multi-user.target @3.269s
+-    snapd.seeded.service @1.456s +670ms
+-      basic.target @1.390s
+-        sockets.target @1.388s
+-          snapd.socket @1.361s +25ms
+-            sysinit.target @1.349s
+-              systemd-resolved.service @1.175s +172ms
+-                systemd-tmpfiles-setup.service @1.121s +50ms
+-                  systemd-journal-flush.service @821ms +274ms
+-                    systemd-journald.service @529ms +255ms
+-                      systemd-journald.socket @492ms
+-                        -.mount @481ms
+-                          -.slice @480ms
+=== BOOT 25 FOR OPERATION terminate ===
+1.848s landscape-client.service
+ 656ms snapd.seeded.service
+ 548ms snapd.service
+ 492ms dev-sdd.device
+ 386ms wsl-pro.service
+ 303ms systemd-journal-flush.service
+ 261ms systemd-journald.service
+ 251ms systemd-udev-trigger.service
+ 177ms rsyslog.service
+ 157ms systemd-resolved.service
+ 143ms systemd-udevd.service
+ 115ms dbus.service
+ 114ms keyboard-setup.service
+  91ms systemd-logind.service
+  66ms e2scrub_reap.service
+  60ms systemd-timesyncd.service
+  56ms systemd-tmpfiles-setup.service
+  52ms systemd-timedated.service
+  47ms systemd-tmpfiles-setup-dev-early.service
+  46ms dev-hugepages.mount
+  45ms dev-mqueue.mount
+  44ms sys-kernel-debug.mount
+  43ms sys-kernel-tracing.mount
+  37ms kmod-static-nodes.service
+  36ms modprobe@configfs.service
+  36ms modprobe@dm_mod.service
+  35ms modprobe@drm.service
+  33ms modprobe@efi_pstore.service
+  32ms systemd-sysctl.service
+  29ms modprobe@fuse.service
+  28ms modprobe@loop.service
+  26ms systemd-modules-load.service
+  25ms snapd.socket
+  24ms sys-fs-fuse-connections.mount
+  24ms systemd-remount-fs.service
+  22ms setvtrgb.service
+  22ms sys-kernel-config.mount
+  21ms systemd-tmpfiles-setup-dev.service
+  20ms console-setup.service
+  19ms systemd-user-sessions.service
+  15ms systemd-update-utmp.service
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.310s
+-  multi-user.target @3.309s
+-    snapd.seeded.service @1.480s +656ms
+-      basic.target @1.445s
+-        sockets.target @1.444s
+-          snapd.socket @1.417s +25ms
+-            sysinit.target @1.406s
+-              systemd-resolved.service @1.247s +157ms
+-                systemd-tmpfiles-setup.service @1.171s +56ms
+-                  systemd-journal-flush.service @835ms +303ms
+-                    systemd-journald.service @523ms +261ms
+-                      systemd-journald.socket @497ms
+-                        -.mount @486ms
+-                          -.slice @485ms
+=== BOOT 26 FOR OPERATION terminate ===
+1.964s landscape-client.service
+ 752ms snapd.seeded.service
+ 629ms snapd.service
+ 529ms systemd-journal-flush.service
+ 520ms dev-sdd.device
+ 405ms wsl-pro.service
+ 276ms systemd-journald.service
+ 263ms systemd-udev-trigger.service
+ 176ms rsyslog.service
+ 164ms systemd-resolved.service
+ 138ms keyboard-setup.service
+ 129ms systemd-udevd.service
+ 110ms dbus.service
+  87ms systemd-logind.service
+  87ms systemd-tmpfiles-setup.service
+  70ms systemd-timesyncd.service
+  68ms systemd-tmpfiles-setup-dev-early.service
+  65ms e2scrub_reap.service
+  54ms systemd-sysctl.service
+  49ms systemd-timedated.service
+  47ms dev-hugepages.mount
+  46ms dev-mqueue.mount
+  45ms sys-kernel-debug.mount
+  44ms sys-kernel-tracing.mount
+  38ms kmod-static-nodes.service
+  37ms modprobe@configfs.service
+  37ms modprobe@dm_mod.service
+  36ms modprobe@drm.service
+  36ms modprobe@efi_pstore.service
+  34ms sys-kernel-config.mount
+  33ms sys-fs-fuse-connections.mount
+  32ms modprobe@fuse.service
+  31ms modprobe@loop.service
+  30ms snapd.socket
+  30ms systemd-modules-load.service
+  28ms systemd-remount-fs.service
+  27ms systemd-update-utmp.service
+  20ms setvtrgb.service
+  19ms console-setup.service
+  17ms systemd-user-sessions.service
+  13ms systemd-tmpfiles-setup-dev.service
+   6ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.774s
+-  multi-user.target @3.773s
+-    snapd.seeded.service @1.828s +752ms
+-      basic.target @1.795s
+-        sockets.target @1.795s
+-          snapd.socket @1.764s +30ms
+-            sysinit.target @1.752s
+-              systemd-resolved.service @1.586s +164ms
+-                systemd-tmpfiles-setup.service @1.454s +87ms
+-                  systemd-journal-flush.service @882ms +529ms
+-                    systemd-journald.service @546ms +276ms
+-                      systemd-journald.socket @508ms
+-                        -.mount @495ms
+-                          -.slice @494ms
+=== BOOT 27 FOR OPERATION terminate ===
+2.238s landscape-client.service
+ 879ms snapd.seeded.service
+ 875ms dev-sdd.device
+ 652ms snapd.service
+ 565ms systemd-journal-flush.service
+ 405ms systemd-udevd.service
+ 390ms wsl-pro.service
+ 289ms systemd-resolved.service
+ 261ms systemd-journald.service
+ 229ms systemd-udev-trigger.service
+ 176ms dbus.service
+ 174ms rsyslog.service
+ 146ms systemd-timesyncd.service
+ 134ms keyboard-setup.service
+ 133ms systemd-tmpfiles-setup.service
+ 106ms e2scrub_reap.service
+  88ms systemd-logind.service
+  82ms systemd-tmpfiles-setup-dev-early.service
+  58ms systemd-update-utmp.service
+  54ms dev-hugepages.mount
+  52ms dev-mqueue.mount
+  51ms sys-kernel-debug.mount
+  51ms systemd-timedated.service
+  51ms sys-kernel-tracing.mount
+  50ms modprobe@drm.service
+  50ms modprobe@dm_mod.service
+  49ms modprobe@configfs.service
+  49ms modprobe@efi_pstore.service
+  47ms kmod-static-nodes.service
+  46ms modprobe@fuse.service
+  45ms modprobe@loop.service
+  39ms systemd-modules-load.service
+  39ms systemd-sysctl.service
+  39ms systemd-remount-fs.service
+  23ms snapd.socket
+  22ms sys-fs-fuse-connections.mount
+  21ms setvtrgb.service
+  20ms sys-kernel-config.mount
+  19ms console-setup.service
+  18ms systemd-user-sessions.service
+  13ms systemd-tmpfiles-setup-dev.service
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @4.311s
+-  multi-user.target @4.310s
+-    snapd.seeded.service @2.123s +879ms
+-      basic.target @2.050s
+-        sockets.target @2.049s
+-          snapd.socket @2.025s +23ms
+-            sysinit.target @2.011s
+-              systemd-resolved.service @1.721s +289ms
+-                systemd-tmpfiles-setup.service @1.544s +133ms
+-                  systemd-journal-flush.service @950ms +565ms
+-                    systemd-journald.service @664ms +261ms
+-                      systemd-journald.socket @621ms
+-                        -.mount @598ms
+-                          -.slice @597ms
+=== BOOT 28 FOR OPERATION terminate ===
+3.612s landscape-client.service
+2.280s snapd.seeded.service
+2.054s snapd.service
+ 868ms systemd-journal-flush.service
+ 853ms dev-sdd.device
+ 429ms wsl-pro.service
+ 252ms systemd-journald.service
+ 244ms systemd-udev-trigger.service
+ 199ms systemd-resolved.service
+ 179ms systemd-udevd.service
+ 173ms keyboard-setup.service
+ 168ms rsyslog.service
+ 134ms dbus.service
+ 113ms systemd-timedated.service
+  98ms systemd-tmpfiles-setup.service
+  94ms systemd-timesyncd.service
+  87ms systemd-logind.service
+  71ms e2scrub_reap.service
+  62ms dev-hugepages.mount
+  60ms dev-mqueue.mount
+  57ms sys-kernel-debug.mount
+  55ms sys-kernel-tracing.mount
+  49ms systemd-tmpfiles-setup-dev-early.service
+  46ms kmod-static-nodes.service
+  43ms modprobe@configfs.service
+  41ms systemd-sysctl.service
+  40ms modprobe@dm_mod.service
+  39ms modprobe@drm.service
+  38ms modprobe@efi_pstore.service
+  35ms modprobe@fuse.service
+  35ms modprobe@loop.service
+  34ms snapd.socket
+  33ms systemd-update-utmp.service
+  29ms systemd-modules-load.service
+  27ms systemd-remount-fs.service
+  25ms setvtrgb.service
+  24ms sys-fs-fuse-connections.mount
+  20ms sys-kernel-config.mount
+  17ms systemd-tmpfiles-setup-dev.service
+  15ms console-setup.service
+  15ms systemd-user-sessions.service
+   9ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @5.852s
+-  multi-user.target @5.851s
+-    snapd.seeded.service @2.256s +2.280s
+-      basic.target @2.194s
+-        sockets.target @2.193s
+-          snapd.socket @2.157s +34ms
+-            sysinit.target @2.145s
+-              systemd-resolved.service @1.944s +199ms
+-                systemd-tmpfiles-setup.service @1.816s +98ms
+-                  systemd-journal-flush.service @920ms +868ms
+-                    systemd-journald.service @634ms +252ms
+-                      systemd-journald.socket @586ms
+-                        system.slice @568ms
+-                          -.slice @568ms
+=== BOOT 29 FOR OPERATION terminate ===
+1.894s landscape-client.service
+ 847ms dev-sdd.device
+ 680ms snapd.seeded.service
+ 550ms snapd.service
+ 426ms systemd-journald.service
+ 402ms wsl-pro.service
+ 360ms systemd-journal-flush.service
+ 337ms systemd-udev-trigger.service
+ 249ms systemd-udevd.service
+ 191ms systemd-resolved.service
+ 185ms rsyslog.service
+ 161ms keyboard-setup.service
+ 121ms dbus.service
+  98ms systemd-timesyncd.service
+  91ms systemd-logind.service
+  90ms e2scrub_reap.service
+  79ms dev-hugepages.mount
+  78ms dev-mqueue.mount
+  78ms sys-kernel-debug.mount
+  77ms sys-kernel-tracing.mount
+  74ms console-setup.service
+  73ms modprobe@drm.service
+  68ms kmod-static-nodes.service
+  67ms modprobe@configfs.service
+  65ms modprobe@dm_mod.service
+  64ms modprobe@efi_pstore.service
+  63ms systemd-tmpfiles-setup-dev-early.service
+  61ms modprobe@loop.service
+  60ms systemd-modules-load.service
+  59ms modprobe@fuse.service
+  57ms systemd-timedated.service
+  54ms systemd-remount-fs.service
+  54ms systemd-tmpfiles-setup.service
+  47ms systemd-sysctl.service
+  26ms sys-fs-fuse-connections.mount
+  26ms systemd-update-utmp.service
+  23ms setvtrgb.service
+  22ms sys-kernel-config.mount
+  21ms systemd-user-sessions.service
+  21ms systemd-tmpfiles-setup-dev.service
+  19ms snapd.socket
+   7ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.729s
+-  multi-user.target @3.729s
+-    snapd.seeded.service @1.851s +680ms
+-      basic.target @1.819s
+-        sockets.target @1.819s
+-          snapd.socket @1.798s +19ms
+-            sysinit.target @1.788s
+-              systemd-resolved.service @1.595s +191ms
+-                systemd-tmpfiles-setup.service @1.534s +54ms
+-                  systemd-journal-flush.service @1.138s +360ms
+-                    systemd-journald.service @612ms +426ms
+-                      systemd-journald.socket @569ms
+-                        -.mount @555ms
+-                          -.slice @555ms
+=== BOOT 30 FOR OPERATION terminate ===
+1.877s landscape-client.service
+ 735ms snapd.seeded.service
+ 535ms snapd.service
+ 516ms dev-sdd.device
+ 386ms wsl-pro.service
+ 363ms systemd-journal-flush.service
+ 287ms systemd-journald.service
+ 273ms systemd-udev-trigger.service
+ 224ms systemd-resolved.service
+ 171ms rsyslog.service
+ 153ms systemd-udevd.service
+ 126ms systemd-timedated.service
+ 125ms systemd-timesyncd.service
+ 121ms dbus.service
+ 118ms keyboard-setup.service
+  90ms systemd-logind.service
+  86ms systemd-tmpfiles-setup.service
+  66ms e2scrub_reap.service
+  47ms systemd-tmpfiles-setup-dev-early.service
+  46ms dev-hugepages.mount
+  46ms dev-mqueue.mount
+  45ms sys-kernel-debug.mount
+  45ms sys-kernel-tracing.mount
+  41ms modprobe@dm_mod.service
+  41ms modprobe@configfs.service
+  40ms kmod-static-nodes.service
+  40ms modprobe@drm.service
+  36ms systemd-sysctl.service
+  34ms modprobe@efi_pstore.service
+  34ms modprobe@fuse.service
+  34ms modprobe@loop.service
+  32ms systemd-update-utmp.service
+  31ms systemd-modules-load.service
+  29ms systemd-remount-fs.service
+  28ms console-setup.service
+  23ms systemd-tmpfiles-setup-dev.service
+  23ms setvtrgb.service
+  22ms sys-fs-fuse-connections.mount
+  21ms sys-kernel-config.mount
+  20ms systemd-user-sessions.service
+  17ms systemd-update-utmp-runlevel.service
+  13ms snapd.socket
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @3.519s
+-  multi-user.target @3.519s
+-    snapd.seeded.service @1.660s +735ms
+-      basic.target @1.628s
+-        sockets.target @1.628s
+-          snapd.socket @1.613s +13ms
+-            sysinit.target @1.601s
+-              systemd-resolved.service @1.376s +224ms
+-                systemd-tmpfiles-setup.service @1.248s +86ms
+-                  systemd-journal-flush.service @851ms +363ms
+-                    systemd-journald.service @546ms +287ms
+-                      systemd-journald.socket @503ms
+-                        system.slice @491ms
+-                          -.slice @491ms
