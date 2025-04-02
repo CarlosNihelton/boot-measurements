@@ -7515,7 +7515,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Install scipy and numpy</span>
@@ -7560,7 +7560,7 @@ Note: you may need to restart the kernel to use updated packages.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Import necessary libraries</span>
@@ -7576,7 +7576,7 @@ Note: you may need to restart the kernel to use updated packages.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">read_file</span><span class="p">(</span><span class="n">file</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
@@ -7603,7 +7603,7 @@ Note: you may need to restart the kernel to use updated packages.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">releases</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Ubuntu-24.04"</span><span class="p">,</span> <span class="s2">"Ubuntu-22.04"</span><span class="p">]</span>
@@ -7625,7 +7625,7 @@ Note: you may need to restart the kernel to use updated packages.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
@@ -7700,7 +7700,7 @@ Data is collected from the same system under controlled circumstances, and can b
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">tabulate</span><span class="w"> </span><span class="kn">import</span> <span class="n">tabulate</span>
@@ -7788,7 +7788,94 @@ Data is collected from the same system under controlled circumstances, and can b
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Prepare a list to store results for tabular display</span>
+<span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">base_version</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">"24.04"</span><span class="p">,</span> <span class="s2">"22.04"</span><span class="p">]:</span>
+    <span class="c1"># Keep the worst case as the base</span>
+    <span class="n">base_file</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"./first-boot/Ubuntu-</span><span class="si">{</span><span class="n">base_version</span><span class="si">}</span><span class="s2">/cloud-init-True-has-config-True.txt"</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">[</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">]:</span>
+        <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="p">[</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">]:</span>
+            <span class="n">compare_file</span> <span class="o">=</span> <span class="p">(</span>
+                <span class="sa">f</span><span class="s2">"./first-boot/Ubuntu-</span><span class="si">{</span><span class="n">base_version</span><span class="si">}</span><span class="s2">/cloud-init-</span><span class="si">{</span><span class="n">c</span><span class="si">}</span><span class="s2">-has-config-</span><span class="si">{</span><span class="n">d</span><span class="si">}</span><span class="s2">.txt"</span>
+            <span class="p">)</span>
+            <span class="k">if</span> <span class="n">base_file</span> <span class="o">==</span> <span class="n">compare_file</span><span class="p">:</span>
+                <span class="k">continue</span>  <span class="c1"># Skip comparison with itself</span>
+            <span class="k">if</span> <span class="n">base_file</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> <span class="n">compare_file</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+                <span class="n">ticks_result</span> <span class="o">=</span> <span class="n">stats</span><span class="o">.</span><span class="n">wilcoxon</span><span class="p">(</span>
+                    <span class="n">data</span><span class="p">[</span><span class="n">base_file</span><span class="p">][</span><span class="s2">"Ticks"</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="n">compare_file</span><span class="p">][</span><span class="s2">"Ticks"</span><span class="p">]</span>
+                <span class="p">)</span>
+                <span class="n">memory_result</span> <span class="o">=</span> <span class="n">stats</span><span class="o">.</span><span class="n">wilcoxon</span><span class="p">(</span>
+                    <span class="n">data</span><span class="p">[</span><span class="n">base_file</span><span class="p">][</span><span class="s2">"Memory (KiB)"</span><span class="p">],</span>
+                    <span class="n">data</span><span class="p">[</span><span class="n">compare_file</span><span class="p">][</span><span class="s2">"Memory (KiB)"</span><span class="p">],</span>
+                <span class="p">)</span>
+                <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                    <span class="p">[</span>
+                        <span class="n">colored</span><span class="p">(</span><span class="n">base_file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">"/"</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">:],</span> <span class="s2">"cyan"</span><span class="p">),</span>
+                        <span class="n">colored</span><span class="p">(</span><span class="n">compare_file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">"/"</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">:],</span> <span class="s2">"cyan"</span><span class="p">),</span>
+                        <span class="n">colored</span><span class="p">(</span>
+                            <span class="sa">f</span><span class="s2">"Ticks: </span><span class="si">{</span><span class="n">ticks_result</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+                            <span class="s2">"green"</span> <span class="k">if</span> <span class="n">ticks_result</span><span class="o">.</span><span class="n">pvalue</span> <span class="o">&gt;</span> <span class="mf">0.05</span> <span class="k">else</span> <span class="s2">"red"</span><span class="p">,</span>
+                        <span class="p">),</span>
+                        <span class="n">colored</span><span class="p">(</span>
+                            <span class="sa">f</span><span class="s2">"Memory: </span><span class="si">{</span><span class="n">memory_result</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+                            <span class="s2">"green"</span> <span class="k">if</span> <span class="n">memory_result</span><span class="o">.</span><span class="n">pvalue</span> <span class="o">&gt;</span> <span class="mf">0.05</span> <span class="k">else</span> <span class="s2">"red"</span><span class="p">,</span>
+                        <span class="p">),</span>
+                    <span class="p">]</span>
+                <span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                    <span class="p">[</span>
+                        <span class="n">colored</span><span class="p">(</span><span class="n">base_file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">"/"</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="s2">"cyan"</span><span class="p">),</span>
+                        <span class="n">colored</span><span class="p">(</span><span class="n">compare_file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">"/"</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="s2">"cyan"</span><span class="p">),</span>
+                        <span class="n">colored</span><span class="p">(</span><span class="s2">"Data missing"</span><span class="p">,</span> <span class="s2">"yellow"</span><span class="p">),</span>
+                        <span class="n">colored</span><span class="p">(</span><span class="s2">"Data missing"</span><span class="p">,</span> <span class="s2">"yellow"</span><span class="p">),</span>
+                    <span class="p">]</span>
+                <span class="p">)</span>
+
+<span class="c1"># Print the results in a tabular format</span>
+<span class="n">headers</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Base File"</span><span class="p">,</span> <span class="s2">"Compare File"</span><span class="p">,</span> <span class="s2">"Ticks Result"</span><span class="p">,</span> <span class="s2">"Memory Result"</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">tabulate</span><span class="p">(</span><span class="n">results</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">,</span> <span class="n">tablefmt</span><span class="o">=</span><span class="s2">"grid"</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>+---------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Base File                                               | Compare File                                              | Ticks Result                                                                                 | Memory Result                                                                                 |
++=========================================================+===========================================================+==============================================================================================+===============================================================================================+
+| <span class="ansi-cyan-fg">['Ubuntu-24.04', 'cloud-init-True-has-config-True.txt']</span> | <span class="ansi-cyan-fg">['Ubuntu-24.04', 'cloud-init-True-has-config-False.txt']</span>  | <span class="ansi-red-fg">Ticks: WilcoxonResult(statistic=np.float64(7.0), pvalue=np.float64(7.078051567077637e-08))</span>   | <span class="ansi-red-fg">Memory: WilcoxonResult(statistic=np.float64(9.0), pvalue=np.float64(1.2293457984924316e-07))</span>  |
++---------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+| <span class="ansi-cyan-fg">['Ubuntu-24.04', 'cloud-init-True-has-config-True.txt']</span> | <span class="ansi-cyan-fg">['Ubuntu-24.04', 'cloud-init-False-has-config-True.txt']</span>  | <span class="ansi-red-fg">Ticks: WilcoxonResult(statistic=np.float64(74.0), pvalue=np.float64(0.0012797452509403229))</span>  | <span class="ansi-red-fg">Memory: WilcoxonResult(statistic=np.float64(49.0), pvalue=np.float64(0.0002688345403438022))</span>  |
++---------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+| <span class="ansi-cyan-fg">['Ubuntu-24.04', 'cloud-init-True-has-config-True.txt']</span> | <span class="ansi-cyan-fg">['Ubuntu-24.04', 'cloud-init-False-has-config-False.txt']</span> | <span class="ansi-red-fg">Ticks: WilcoxonResult(statistic=np.float64(43.0), pvalue=np.float64(4.700571298599243e-05))</span>  | <span class="ansi-red-fg">Memory: WilcoxonResult(statistic=np.float64(41.0), pvalue=np.float64(3.628432750701904e-05))</span>  |
++---------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+| <span class="ansi-cyan-fg">['Ubuntu-22.04', 'cloud-init-True-has-config-True.txt']</span> | <span class="ansi-cyan-fg">['Ubuntu-22.04', 'cloud-init-True-has-config-False.txt']</span>  | <span class="ansi-red-fg">Ticks: WilcoxonResult(statistic=np.float64(14.0), pvalue=np.float64(4.0978193283081055e-07))</span> | <span class="ansi-red-fg">Memory: WilcoxonResult(statistic=np.float64(100.0), pvalue=np.float64(0.009877141565084457))</span>  |
++---------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+| <span class="ansi-cyan-fg">['Ubuntu-22.04', 'cloud-init-True-has-config-True.txt']</span> | <span class="ansi-cyan-fg">['Ubuntu-22.04', 'cloud-init-False-has-config-True.txt']</span>  | <span class="ansi-red-fg">Ticks: WilcoxonResult(statistic=np.float64(16.0), pvalue=np.float64(6.295740604400635e-07))</span>  | <span class="ansi-red-fg">Memory: WilcoxonResult(statistic=np.float64(71.0), pvalue=np.float64(0.0009746924042701721))</span>  |
++---------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+| <span class="ansi-cyan-fg">['Ubuntu-22.04', 'cloud-init-True-has-config-True.txt']</span> | <span class="ansi-cyan-fg">['Ubuntu-22.04', 'cloud-init-False-has-config-False.txt']</span> | <span class="ansi-red-fg">Ticks: WilcoxonResult(statistic=np.float64(0.0), pvalue=np.float64(3.725290298461914e-09))</span>   | <span class="ansi-red-fg">Memory: WilcoxonResult(statistic=np.float64(42.0), pvalue=np.float64(0.00014765374788050785))</span> |
++---------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
@@ -7889,7 +7976,7 @@ Data is collected from the same system under controlled circumstances, and can b
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
