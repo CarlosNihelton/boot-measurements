@@ -1,0 +1,2880 @@
+=== FIRST BOOT 1 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.217s snapd.seeded.service
+2.435s cloud-init.service
+1.765s cloud-init-local.service
+1.591s landscape-client.service
+1.209s cloud-config.service
+ 786ms cloud-final.service
+ 700ms dev-sdd.device
+ 635ms snapd.service
+ 373ms wsl-pro.service
+ 349ms systemd-resolved.service
+ 227ms systemd-udev-trigger.service
+ 198ms rsyslog.service
+ 160ms systemd-timesyncd.service
+ 156ms systemd-udevd.service
+ 144ms systemd-journal-flush.service
+ 143ms keyboard-setup.service
+ 124ms systemd-journald.service
+ 115ms dbus.service
+ 107ms e2scrub_reap.service
+ 104ms ldconfig.service
+  97ms systemd-logind.service
+  84ms dev-hugepages.mount
+  83ms dev-mqueue.mount
+  82ms sys-kernel-debug.mount
+  80ms sys-kernel-tracing.mount
+  77ms systemd-tmpfiles-setup-dev-early.service
+  66ms kmod-static-nodes.service
+  66ms systemd-journal-catalog-update.service
+  65ms modprobe@configfs.service
+  64ms modprobe@dm_mod.service
+  64ms systemd-sysctl.service
+  60ms systemd-remount-fs.service
+  60ms systemd-modules-load.service
+  60ms modprobe@drm.service
+  59ms systemd-timedated.service
+  57ms snapd.socket
+  56ms modprobe@efi_pstore.service
+  54ms systemd-sysusers.service
+  52ms systemd-tmpfiles-setup.service
+  49ms systemd-update-utmp-runlevel.service
+  47ms modprobe@fuse.service
+  47ms modprobe@loop.service
+  33ms sys-fs-fuse-connections.mount
+  33ms systemd-update-utmp.service
+  31ms sys-kernel-config.mount
+  21ms setvtrgb.service
+  20ms console-setup.service
+  20ms systemd-update-done.service
+  19ms systemd-user-sessions.service
+  12ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @8.662s
+ - multi-user.target @8.659s
+   - snapd.seeded.service @5.437s +3.217s
+     - basic.target @5.382s
+       - sockets.target @5.381s
+         - snapd.socket @5.322s +57ms
+           - sysinit.target @5.305s
+             - cloud-init.service @2.865s +2.435s
+               - cloud-init-local.service @1.078s +1.765s
+                 - systemd-remount-fs.service @1.008s +60ms
+                   - systemd-journald.socket @943ms
+                     - system.slice @905ms
+                       - -.slice @905ms
+=== FIRST BOOT 2 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+2.751s snapd.seeded.service
+2.205s cloud-init.service
+1.940s landscape-client.service
+1.726s cloud-init-local.service
+1.679s cloud-config.service
+ 903ms dev-sde.device
+ 644ms snapd.service
+ 538ms cloud-final.service
+ 400ms wsl-pro.service
+ 387ms systemd-resolved.service
+ 257ms systemd-udev-trigger.service
+ 230ms rsyslog.service
+ 163ms systemd-udevd.service
+ 154ms systemd-timesyncd.service
+ 149ms systemd-journald.service
+ 149ms keyboard-setup.service
+ 123ms systemd-journal-flush.service
+ 113ms systemd-logind.service
+ 107ms dbus.service
+ 104ms e2scrub_reap.service
+  99ms systemd-sysctl.service
+  94ms systemd-tmpfiles-setup-dev-early.service
+  74ms dev-hugepages.mount
+  74ms dev-mqueue.mount
+  73ms sys-kernel-debug.mount
+  70ms sys-kernel-tracing.mount
+  69ms ldconfig.service
+  59ms kmod-static-nodes.service
+  57ms systemd-tmpfiles-setup.service
+  56ms modprobe@configfs.service
+  55ms modprobe@drm.service
+  55ms modprobe@dm_mod.service
+  50ms modprobe@efi_pstore.service
+  49ms systemd-journal-catalog-update.service
+  49ms modprobe@fuse.service
+  47ms systemd-timedated.service
+  43ms modprobe@loop.service
+  41ms systemd-sysusers.service
+  38ms systemd-modules-load.service
+  37ms sys-fs-fuse-connections.mount
+  37ms systemd-remount-fs.service
+  36ms sys-kernel-config.mount
+  33ms setvtrgb.service
+  24ms systemd-update-utmp.service
+  23ms systemd-update-done.service
+  22ms systemd-user-sessions.service
+  21ms console-setup.service
+  18ms snapd.socket
+  12ms systemd-update-utmp-runlevel.service
+  11ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @7.973s
+ - multi-user.target @7.973s
+   - snapd.seeded.service @5.219s +2.751s
+     - basic.target @5.180s
+       - sockets.target @5.180s
+         - snapd.socket @5.160s +18ms
+           - sysinit.target @5.143s
+             - cloud-init.service @2.934s +2.205s
+               - cloud-init-local.service @1.180s +1.726s
+                 - systemd-remount-fs.service @1.123s +37ms
+                   - systemd-journald.socket @1.054s
+                     - system.slice @1.026s
+                       - -.slice @1.026s
+=== FIRST BOOT 3 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.276s snapd.seeded.service
+1.984s landscape-client.service
+1.947s cloud-init.service
+1.779s cloud-init-local.service
+1.313s cloud-config.service
+ 859ms dev-sde.device
+ 708ms cloud-final.service
+ 693ms snapd.service
+ 456ms wsl-pro.service
+ 350ms systemd-resolved.service
+ 228ms rsyslog.service
+ 225ms systemd-udev-trigger.service
+ 179ms systemd-timesyncd.service
+ 152ms systemd-journal-flush.service
+ 143ms keyboard-setup.service
+ 135ms systemd-udevd.service
+ 129ms systemd-logind.service
+ 123ms systemd-journald.service
+ 119ms ldconfig.service
+ 105ms dbus.service
+ 103ms e2scrub_reap.service
+ 100ms dev-hugepages.mount
+  96ms dev-mqueue.mount
+  90ms sys-kernel-debug.mount
+  85ms sys-kernel-tracing.mount
+  70ms systemd-sysctl.service
+  67ms systemd-tmpfiles-setup-dev-early.service
+  63ms kmod-static-nodes.service
+  61ms modprobe@drm.service
+  61ms modprobe@dm_mod.service
+  61ms systemd-timedated.service
+  61ms modprobe@configfs.service
+  59ms modprobe@efi_pstore.service
+  57ms modprobe@fuse.service
+  56ms modprobe@loop.service
+  55ms systemd-sysusers.service
+  54ms systemd-tmpfiles-setup.service
+  51ms systemd-modules-load.service
+  50ms systemd-update-utmp-runlevel.service
+  48ms systemd-journal-catalog-update.service
+  47ms systemd-remount-fs.service
+  31ms systemd-update-utmp.service
+  29ms systemd-update-done.service
+  28ms systemd-user-sessions.service
+  25ms snapd.socket
+  22ms console-setup.service
+  21ms sys-kernel-config.mount
+  19ms sys-fs-fuse-connections.mount
+  18ms setvtrgb.service
+  12ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @8.722s
+ - multi-user.target @8.718s
+   - snapd.seeded.service @5.436s +3.276s
+     - basic.target @5.378s
+       - sockets.target @5.378s
+         - snapd.socket @5.352s +25ms
+           - sysinit.target @5.319s
+             - cloud-init.service @3.369s +1.947s
+               - cloud-init-local.service @1.558s +1.779s
+                 - systemd-remount-fs.service @1.501s +47ms
+                   - systemd-journald.socket @1.406s
+                     - -.mount @1.290s
+                       - -.slice @1.288s
+=== FIRST BOOT 4 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+2.278s cloud-init.service
+1.675s landscape-client.service
+1.582s cloud-init-local.service
+1.425s cloud-config.service
+1.227s snapd.seeded.service
+ 717ms dev-sde.device
+ 663ms snapd.service
+ 550ms cloud-final.service
+ 423ms wsl-pro.service
+ 333ms systemd-resolved.service
+ 272ms systemd-timesyncd.service
+ 220ms rsyslog.service
+ 184ms systemd-udev-trigger.service
+ 129ms systemd-logind.service
+ 129ms systemd-update-done.service
+ 112ms systemd-udevd.service
+ 110ms keyboard-setup.service
+ 104ms systemd-journald.service
+ 102ms e2scrub_reap.service
+  99ms dbus.service
+  88ms systemd-journal-flush.service
+  67ms systemd-timedated.service
+  65ms ldconfig.service
+  56ms systemd-sysctl.service
+  55ms dev-mqueue.mount
+  54ms sys-kernel-debug.mount
+  54ms systemd-tmpfiles-setup-dev-early.service
+  54ms dev-hugepages.mount
+  53ms sys-kernel-tracing.mount
+  49ms systemd-tmpfiles-setup.service
+  46ms kmod-static-nodes.service
+  45ms modprobe@configfs.service
+  45ms systemd-journal-catalog-update.service
+  44ms snapd.socket
+  42ms modprobe@dm_mod.service
+  41ms modprobe@drm.service
+  41ms modprobe@efi_pstore.service
+  40ms modprobe@fuse.service
+  37ms modprobe@loop.service
+  33ms systemd-sysusers.service
+  31ms systemd-modules-load.service
+  30ms systemd-remount-fs.service
+  26ms systemd-update-utmp.service
+  25ms setvtrgb.service
+  23ms systemd-user-sessions.service
+  18ms systemd-tmpfiles-setup-dev.service
+  17ms systemd-update-utmp-runlevel.service
+  16ms console-setup.service
+  16ms sys-fs-fuse-connections.mount
+  15ms sys-kernel-config.mount
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @6.628s
+ - multi-user.target @6.627s
+   - snapd.seeded.service @4.970s +1.227s
+     - basic.target @4.927s
+       - sockets.target @4.927s
+         - snapd.socket @4.881s +44ms
+           - sysinit.target @4.866s
+             - cloud-init.service @2.585s +2.278s
+               - cloud-init-local.service @964ms +1.582s
+                 - systemd-remount-fs.service @927ms +30ms
+                   - systemd-journald.socket @879ms
+                     - -.mount @791ms
+                       - -.slice @790ms
+=== FIRST BOOT 5 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+1.679s cloud-init-local.service
+1.653s landscape-client.service
+1.389s cloud-config.service
+1.234s cloud-init.service
+1.230s snapd.seeded.service
+ 803ms dev-sde.device
+ 683ms snapd.service
+ 565ms cloud-final.service
+ 415ms wsl-pro.service
+ 389ms systemd-resolved.service
+ 248ms systemd-udev-trigger.service
+ 225ms rsyslog.service
+ 158ms systemd-timesyncd.service
+ 142ms systemd-udevd.service
+ 139ms keyboard-setup.service
+ 132ms systemd-logind.service
+ 124ms systemd-journald.service
+  99ms e2scrub_reap.service
+  92ms ldconfig.service
+  84ms systemd-journal-flush.service
+  78ms systemd-timedated.service
+  76ms systemd-tmpfiles-setup-dev-early.service
+  71ms dbus.service
+  67ms systemd-sysctl.service
+  58ms sys-kernel-tracing.mount
+  57ms dev-hugepages.mount
+  56ms dev-mqueue.mount
+  56ms sys-kernel-debug.mount
+  54ms systemd-tmpfiles-setup.service
+  51ms systemd-journal-catalog-update.service
+  50ms modprobe@dm_mod.service
+  49ms modprobe@configfs.service
+  48ms kmod-static-nodes.service
+  46ms modprobe@drm.service
+  44ms modprobe@efi_pstore.service
+  44ms modprobe@fuse.service
+  43ms modprobe@loop.service
+  40ms systemd-modules-load.service
+  35ms systemd-remount-fs.service
+  28ms systemd-sysusers.service
+  28ms sys-fs-fuse-connections.mount
+  27ms systemd-user-sessions.service
+  26ms sys-kernel-config.mount
+  26ms systemd-update-utmp.service
+  24ms systemd-tmpfiles-setup-dev.service
+  23ms snapd.socket
+  23ms console-setup.service
+  21ms setvtrgb.service
+  20ms systemd-update-done.service
+  17ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @5.817s
+ - multi-user.target @5.816s
+   - snapd.seeded.service @4.180s +1.230s
+     - basic.target @4.143s
+       - sockets.target @4.142s
+         - snapd.socket @4.117s +23ms
+           - sysinit.target @4.101s
+             - cloud-init.service @2.865s +1.234s
+               - cloud-init-local.service @1.164s +1.679s
+                 - systemd-remount-fs.service @1.114s +35ms
+                   - systemd-journald.socket @1.061s
+                     - system.slice @1.036s
+                       - -.slice @1.036s
+=== FIRST BOOT 6 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.836s snapd.seeded.service
+2.395s cloud-init-local.service
+2.224s cloud-init.service
+1.951s landscape-client.service
+1.633s cloud-config.service
+ 935ms dev-sde.device
+ 815ms cloud-final.service
+ 734ms snapd.service
+ 476ms systemd-resolved.service
+ 470ms wsl-pro.service
+ 343ms systemd-udev-trigger.service
+ 273ms systemd-timesyncd.service
+ 243ms rsyslog.service
+ 242ms systemd-udevd.service
+ 217ms ldconfig.service
+ 207ms keyboard-setup.service
+ 205ms systemd-journald.service
+ 146ms systemd-logind.service
+ 137ms systemd-journal-flush.service
+ 114ms dev-mqueue.mount
+ 114ms dev-hugepages.mount
+ 108ms sys-kernel-debug.mount
+ 102ms sys-kernel-tracing.mount
+  99ms systemd-sysctl.service
+  97ms systemd-tmpfiles-setup-dev-early.service
+  89ms systemd-tmpfiles-setup.service
+  89ms kmod-static-nodes.service
+  88ms dbus.service
+  88ms modprobe@configfs.service
+  86ms e2scrub_reap.service
+  85ms modprobe@dm_mod.service
+  82ms modprobe@drm.service
+  79ms modprobe@fuse.service
+  79ms modprobe@efi_pstore.service
+  73ms systemd-journal-catalog-update.service
+  71ms modprobe@loop.service
+  69ms systemd-timedated.service
+  60ms systemd-remount-fs.service
+  59ms systemd-modules-load.service
+  56ms systemd-sysusers.service
+  47ms sys-fs-fuse-connections.mount
+  44ms sys-kernel-config.mount
+  37ms systemd-update-done.service
+  37ms systemd-user-sessions.service
+  36ms systemd-update-utmp.service
+  36ms console-setup.service
+  30ms systemd-tmpfiles-setup-dev.service
+  25ms setvtrgb.service
+  25ms snapd.socket
+  22ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @10.869s
+ - multi-user.target @10.868s
+   - snapd.seeded.service @7.029s +3.836s
+     - basic.target @6.980s
+       - sockets.target @6.980s
+         - snapd.socket @6.954s +25ms
+           - sysinit.target @6.938s
+             - cloud-init.service @4.711s +2.224s
+               - cloud-init-local.service @2.292s +2.395s
+                 - systemd-remount-fs.service @2.184s +60ms
+                   - systemd-journald.socket @2.086s
+                     - -.mount @2.042s
+                       - -.slice @2.043s
+=== FIRST BOOT 7 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.025s snapd.seeded.service
+2.411s cloud-init.service
+2.242s cloud-init-local.service
+1.866s landscape-client.service
+1.458s cloud-config.service
+1.008s dev-sdd.device
+ 840ms cloud-final.service
+ 827ms snapd.service
+ 469ms systemd-resolved.service
+ 365ms wsl-pro.service
+ 341ms systemd-udev-trigger.service
+ 242ms keyboard-setup.service
+ 227ms systemd-udevd.service
+ 214ms rsyslog.service
+ 189ms systemd-timesyncd.service
+ 165ms systemd-journal-flush.service
+ 148ms systemd-journald.service
+ 146ms ldconfig.service
+ 129ms dev-mqueue.mount
+ 126ms sys-kernel-debug.mount
+ 125ms dbus.service
+ 121ms sys-kernel-tracing.mount
+ 121ms e2scrub_reap.service
+ 121ms dev-hugepages.mount
+ 119ms systemd-tmpfiles-setup-dev-early.service
+ 118ms systemd-timedated.service
+ 112ms systemd-sysctl.service
+ 111ms systemd-logind.service
+  99ms kmod-static-nodes.service
+  96ms modprobe@configfs.service
+  90ms modprobe@dm_mod.service
+  89ms modprobe@drm.service
+  84ms systemd-tmpfiles-setup.service
+  82ms modprobe@efi_pstore.service
+  81ms systemd-journal-catalog-update.service
+  76ms modprobe@fuse.service
+  70ms modprobe@loop.service
+  62ms systemd-modules-load.service
+  56ms systemd-remount-fs.service
+  49ms systemd-update-utmp-runlevel.service
+  46ms sys-fs-fuse-connections.mount
+  44ms sys-kernel-config.mount
+  43ms systemd-sysusers.service
+  39ms snapd.socket
+  38ms systemd-update-utmp.service
+  32ms setvtrgb.service
+  32ms console-setup.service
+  29ms systemd-tmpfiles-setup-dev.service
+  27ms systemd-update-done.service
+  21ms systemd-user-sessions.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @9.313s
+ - multi-user.target @9.311s
+   - snapd.seeded.service @6.280s +3.025s
+     - basic.target @6.240s
+       - sockets.target @6.239s
+         - snapd.socket @6.199s +39ms
+           - sysinit.target @6.179s
+             - cloud-init.service @3.765s +2.411s
+               - cloud-init-local.service @1.486s +2.242s
+                 - systemd-remount-fs.service @1.350s +56ms
+                   - systemd-journald.socket @1.237s
+                     - -.mount @1.196s
+                       - -.slice @1.194s
+=== FIRST BOOT 8 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.285s cloud-init.service
+1.909s cloud-init-local.service
+1.598s landscape-client.service
+1.253s cloud-config.service
+1.175s snapd.seeded.service
+ 861ms dev-sdd.device
+ 601ms snapd.service
+ 539ms cloud-final.service
+ 448ms systemd-resolved.service
+ 359ms wsl-pro.service
+ 286ms systemd-journal-flush.service
+ 234ms systemd-timesyncd.service
+ 208ms systemd-udev-trigger.service
+ 197ms rsyslog.service
+ 182ms systemd-udevd.service
+ 175ms keyboard-setup.service
+ 148ms ldconfig.service
+ 122ms systemd-journal-catalog-update.service
+ 113ms systemd-journald.service
+ 106ms systemd-logind.service
+  94ms dbus.service
+  93ms e2scrub_reap.service
+  89ms systemd-sysusers.service
+  89ms systemd-timedated.service
+  87ms systemd-sysctl.service
+  86ms systemd-tmpfiles-setup-dev-early.service
+  81ms console-setup.service
+  68ms systemd-update-utmp.service
+  63ms dev-hugepages.mount
+  62ms dev-mqueue.mount
+  61ms sys-kernel-debug.mount
+  60ms sys-kernel-tracing.mount
+  50ms kmod-static-nodes.service
+  48ms modprobe@configfs.service
+  48ms modprobe@dm_mod.service
+  45ms modprobe@drm.service
+  44ms modprobe@efi_pstore.service
+  43ms modprobe@fuse.service
+  42ms modprobe@loop.service
+  41ms systemd-tmpfiles-setup.service
+  32ms systemd-modules-load.service
+  31ms snapd.socket
+  30ms systemd-remount-fs.service
+  26ms sys-fs-fuse-connections.mount
+  24ms sys-kernel-config.mount
+  21ms systemd-user-sessions.service
+  20ms setvtrgb.service
+  13ms systemd-update-utmp-runlevel.service
+  11ms systemd-tmpfiles-setup-dev.service
+   8ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @7.906s
+ - multi-user.target @7.905s
+   - snapd.seeded.service @6.323s +1.175s
+     - basic.target @6.281s
+       - sockets.target @6.280s
+         - snapd.socket @6.248s +31ms
+           - sysinit.target @6.226s
+             - cloud-init.service @2.937s +3.285s
+               - cloud-init-local.service @997ms +1.909s
+                 - systemd-remount-fs.service @959ms +30ms
+                   - systemd-journald.socket @896ms
+                     - system.slice @846ms
+                       - -.slice @846ms
+=== FIRST BOOT 9 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+4.193s snapd.seeded.service
+1.947s cloud-init.service
+1.671s cloud-init-local.service
+1.629s landscape-client.service
+1.289s cloud-config.service
+ 824ms dev-sde.device
+ 791ms cloud-final.service
+ 618ms snapd.service
+ 387ms wsl-pro.service
+ 338ms systemd-resolved.service
+ 297ms systemd-udev-trigger.service
+ 197ms rsyslog.service
+ 186ms systemd-udevd.service
+ 172ms systemd-sysctl.service
+ 168ms systemd-tmpfiles-setup-dev-early.service
+ 168ms modprobe@configfs.service
+ 159ms keyboard-setup.service
+ 146ms systemd-timesyncd.service
+ 142ms systemd-journald.service
+ 112ms systemd-logind.service
+ 112ms ldconfig.service
+ 106ms systemd-journal-flush.service
+ 103ms e2scrub_reap.service
+ 100ms dbus.service
+  87ms dev-hugepages.mount
+  85ms dev-mqueue.mount
+  83ms sys-kernel-debug.mount
+  81ms sys-kernel-tracing.mount
+  67ms kmod-static-nodes.service
+  67ms systemd-timedated.service
+  60ms modprobe@drm.service
+  60ms systemd-tmpfiles-setup.service
+  59ms modprobe@dm_mod.service
+  56ms modprobe@efi_pstore.service
+  54ms systemd-journal-catalog-update.service
+  52ms modprobe@fuse.service
+  50ms systemd-update-utmp-runlevel.service
+  48ms modprobe@loop.service
+  42ms systemd-modules-load.service
+  40ms systemd-remount-fs.service
+  35ms snapd.socket
+  30ms sys-fs-fuse-connections.mount
+  29ms systemd-update-utmp.service
+  27ms systemd-sysusers.service
+  22ms systemd-user-sessions.service
+  21ms console-setup.service
+  21ms systemd-tmpfiles-setup-dev.service
+  19ms setvtrgb.service
+  15ms sys-kernel-config.mount
+  13ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @9.060s
+ - multi-user.target @9.058s
+   - snapd.seeded.service @4.860s +4.193s
+     - basic.target @4.826s
+       - sockets.target @4.826s
+         - snapd.socket @4.789s +35ms
+           - sysinit.target @4.773s
+             - cloud-init.service @2.823s +1.947s
+               - cloud-init-local.service @1.118s +1.671s
+                 - systemd-remount-fs.service @1.057s +40ms
+                   - systemd-journald.socket @978ms
+                     - system.slice @939ms
+                       - -.slice @938ms
+=== FIRST BOOT 10 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.783s cloud-init.service
+3.699s snapd.seeded.service
+1.735s cloud-init-local.service
+1.668s landscape-client.service
+1.391s cloud-config.service
+ 752ms dev-sde.device
+ 730ms cloud-final.service
+ 644ms snapd.service
+ 557ms systemd-resolved.service
+ 389ms wsl-pro.service
+ 274ms systemd-timesyncd.service
+ 235ms systemd-udev-trigger.service
+ 202ms rsyslog.service
+ 152ms keyboard-setup.service
+ 148ms systemd-udevd.service
+ 134ms e2scrub_reap.service
+ 131ms systemd-journald.service
+ 115ms systemd-logind.service
+ 111ms dbus.service
+ 106ms systemd-journal-flush.service
+  97ms systemd-sysctl.service
+  96ms systemd-tmpfiles-setup-dev-early.service
+  85ms ldconfig.service
+  81ms systemd-journal-catalog-update.service
+  71ms systemd-tmpfiles-setup.service
+  66ms dev-hugepages.mount
+  65ms dev-mqueue.mount
+  65ms sys-kernel-debug.mount
+  61ms sys-kernel-tracing.mount
+  57ms systemd-timedated.service
+  53ms kmod-static-nodes.service
+  51ms modprobe@configfs.service
+  50ms modprobe@dm_mod.service
+  49ms modprobe@drm.service
+  47ms modprobe@efi_pstore.service
+  45ms modprobe@fuse.service
+  42ms systemd-update-utmp.service
+  41ms modprobe@loop.service
+  37ms systemd-modules-load.service
+  37ms systemd-sysusers.service
+  32ms systemd-remount-fs.service
+  28ms sys-fs-fuse-connections.mount
+  27ms sys-kernel-config.mount
+  27ms systemd-user-sessions.service
+  25ms snapd.socket
+  24ms console-setup.service
+  21ms systemd-update-utmp-runlevel.service
+  19ms setvtrgb.service
+  19ms systemd-tmpfiles-setup-dev.service
+  11ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @10.698s
+ - multi-user.target @10.697s
+   - snapd.seeded.service @6.996s +3.699s
+     - basic.target @6.960s
+       - sockets.target @6.960s
+         - snapd.socket @6.933s +25ms
+           - sysinit.target @6.916s
+             - cloud-init.service @3.129s +3.783s
+               - cloud-init-local.service @1.359s +1.735s
+                 - systemd-remount-fs.service @1.313s +32ms
+                   - systemd-journald.socket @1.249s
+                     - system.slice @1.213s
+                       - -.slice @1.213s
+=== FIRST BOOT 11 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+2.357s cloud-init-local.service
+2.207s cloud-init.service
+1.968s landscape-client.service
+1.454s cloud-config.service
+1.311s snapd.seeded.service
+ 859ms dev-sdd.device
+ 737ms cloud-final.service
+ 700ms snapd.service
+ 429ms systemd-resolved.service
+ 371ms wsl-pro.service
+ 253ms systemd-udevd.service
+ 243ms systemd-udev-trigger.service
+ 215ms systemd-journal-flush.service
+ 199ms rsyslog.service
+ 145ms keyboard-setup.service
+ 141ms ldconfig.service
+ 131ms systemd-timesyncd.service
+ 126ms systemd-logind.service
+ 124ms systemd-tmpfiles-setup-dev-early.service
+ 120ms systemd-journald.service
+ 112ms systemd-journal-catalog-update.service
+ 105ms systemd-sysctl.service
+ 102ms dbus.service
+ 100ms systemd-timedated.service
+  96ms systemd-sysusers.service
+  90ms e2scrub_reap.service
+  69ms sys-kernel-tracing.mount
+  69ms dev-hugepages.mount
+  68ms dev-mqueue.mount
+  68ms sys-kernel-debug.mount
+  62ms systemd-tmpfiles-setup.service
+  55ms kmod-static-nodes.service
+  55ms modprobe@configfs.service
+  54ms modprobe@dm_mod.service
+  50ms modprobe@drm.service
+  47ms modprobe@efi_pstore.service
+  46ms modprobe@fuse.service
+  42ms modprobe@loop.service
+  37ms systemd-modules-load.service
+  35ms systemd-remount-fs.service
+  31ms systemd-update-utmp.service
+  27ms snapd.socket
+  25ms sys-fs-fuse-connections.mount
+  22ms sys-kernel-config.mount
+  19ms setvtrgb.service
+  19ms systemd-user-sessions.service
+  19ms systemd-update-done.service
+  18ms systemd-update-utmp-runlevel.service
+  17ms console-setup.service
+  13ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @7.978s
+ - multi-user.target @7.977s
+   - snapd.seeded.service @6.026s +1.311s
+     - basic.target @5.981s
+       - sockets.target @5.980s
+         - snapd.socket @5.952s +27ms
+           - sysinit.target @5.921s
+             - cloud-init.service @3.711s +2.207s
+               - cloud-init-local.service @1.309s +2.357s
+                 - systemd-remount-fs.service @1.261s +35ms
+                   - systemd-journald.socket @1.198s
+                     - -.mount @1.149s
+                       - -.slice @1.147s
+=== FIRST BOOT 12 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+18.467s snapd.seeded.service
+ 3.411s cloud-init.service
+ 2.362s cloud-init-local.service
+ 1.803s landscape-client.service
+ 1.567s cloud-config.service
+  933ms dev-sdd.device
+  786ms snapd.service
+  571ms cloud-final.service
+  540ms wsl-pro.service
+  455ms systemd-resolved.service
+  342ms rsyslog.service
+  303ms systemd-udev-trigger.service
+  215ms systemd-udevd.service
+  203ms keyboard-setup.service
+  200ms systemd-journald.service
+  199ms systemd-timesyncd.service
+  193ms e2scrub_reap.service
+  172ms dbus.service
+  149ms dev-hugepages.mount
+  145ms sys-kernel-debug.mount
+  144ms systemd-logind.service
+  144ms dev-mqueue.mount
+  143ms sys-kernel-tracing.mount
+  115ms kmod-static-nodes.service
+  112ms modprobe@configfs.service
+  105ms modprobe@dm_mod.service
+  102ms modprobe@drm.service
+   88ms modprobe@efi_pstore.service
+   86ms ldconfig.service
+   86ms systemd-tmpfiles-setup-dev-early.service
+   84ms systemd-sysctl.service
+   84ms systemd-tmpfiles-setup.service
+   80ms systemd-journal-catalog-update.service
+   79ms systemd-timedated.service
+   76ms systemd-journal-flush.service
+   68ms modprobe@fuse.service
+   63ms modprobe@loop.service
+   52ms sys-fs-fuse-connections.mount
+   52ms systemd-sysusers.service
+   52ms systemd-modules-load.service
+   49ms systemd-remount-fs.service
+   47ms sys-kernel-config.mount
+   46ms systemd-user-sessions.service
+   42ms snapd.socket
+   42ms systemd-update-utmp.service
+   25ms console-setup.service
+   25ms setvtrgb.service
+   16ms systemd-tmpfiles-setup-dev.service
+   16ms systemd-update-done.service
+   11ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @25.849s
+ - multi-user.target @25.849s
+   - snapd.seeded.service @7.380s +18.467s
+     - basic.target @7.331s
+       - sockets.target @7.331s
+         - snapd.socket @7.288s +42ms
+           - sysinit.target @7.273s
+             - cloud-init.service @3.858s +3.411s
+               - cloud-init-local.service @1.454s +2.362s
+                 - systemd-remount-fs.service @1.376s +49ms
+                   - systemd-journald.socket @1.242s
+                     - system.slice @1.194s
+                       - -.slice @1.195s
+=== FIRST BOOT 13 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.099s cloud-init.service
+2.997s landscape-client.service
+2.619s cloud-config.service
+1.698s cloud-init-local.service
+1.196s snapd.seeded.service
+ 641ms dev-sde.device
+ 627ms snapd.service
+ 547ms cloud-final.service
+ 387ms wsl-pro.service
+ 346ms systemd-resolved.service
+ 219ms systemd-udev-trigger.service
+ 196ms rsyslog.service
+ 159ms systemd-timesyncd.service
+ 157ms systemd-udevd.service
+ 137ms keyboard-setup.service
+ 121ms systemd-journal-flush.service
+ 117ms systemd-journald.service
+ 114ms dbus.service
+ 108ms systemd-logind.service
+ 106ms ldconfig.service
+ 103ms e2scrub_reap.service
+  82ms systemd-sysctl.service
+  80ms systemd-tmpfiles-setup-dev-early.service
+  61ms sys-kernel-tracing.mount
+  60ms sys-kernel-debug.mount
+  60ms dev-hugepages.mount
+  59ms dev-mqueue.mount
+  57ms systemd-timedated.service
+  52ms systemd-sysusers.service
+  52ms systemd-journal-catalog-update.service
+  51ms systemd-tmpfiles-setup.service
+  48ms kmod-static-nodes.service
+  48ms modprobe@configfs.service
+  47ms modprobe@dm_mod.service
+  45ms modprobe@drm.service
+  44ms modprobe@efi_pstore.service
+  41ms modprobe@fuse.service
+  40ms modprobe@loop.service
+  34ms snapd.socket
+  34ms systemd-modules-load.service
+  31ms systemd-remount-fs.service
+  28ms sys-kernel-config.mount
+  26ms systemd-user-sessions.service
+  25ms systemd-update-utmp.service
+  25ms systemd-update-done.service
+  25ms sys-fs-fuse-connections.mount
+  19ms console-setup.service
+  18ms setvtrgb.service
+  13ms systemd-update-utmp-runlevel.service
+  11ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @9.225s
+ - multi-user.target @9.224s
+   - snapd.seeded.service @6.242s +1.196s
+     - basic.target @6.206s
+       - sockets.target @6.205s
+         - snapd.socket @6.170s +34ms
+           - sysinit.target @6.151s
+             - cloud-init.service @3.049s +3.099s
+               - cloud-init-local.service @1.324s +1.698s
+                 - systemd-remount-fs.service @1.280s +31ms
+                   - systemd-journald.socket @1.220s
+                     - -.mount @1.186s
+                       - -.slice @1.185s
+=== FIRST BOOT 14 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+2.436s cloud-init.service
+1.723s cloud-init-local.service
+1.567s landscape-client.service
+1.305s cloud-config.service
+1.163s snapd.seeded.service
+ 717ms dev-sde.device
+ 597ms snapd.service
+ 578ms cloud-final.service
+ 370ms wsl-pro.service
+ 365ms systemd-resolved.service
+ 241ms systemd-udev-trigger.service
+ 207ms rsyslog.service
+ 190ms systemd-udevd.service
+ 179ms systemd-timesyncd.service
+ 139ms keyboard-setup.service
+ 135ms dbus.service
+ 121ms e2scrub_reap.service
+ 116ms systemd-journald.service
+ 111ms systemd-logind.service
+ 109ms systemd-journal-flush.service
+  84ms ldconfig.service
+  63ms dev-hugepages.mount
+  62ms dev-mqueue.mount
+  60ms sys-kernel-debug.mount
+  60ms systemd-tmpfiles-setup.service
+  60ms sys-kernel-tracing.mount
+  59ms systemd-sysctl.service
+  57ms systemd-timedated.service
+  56ms systemd-tmpfiles-setup-dev-early.service
+  50ms kmod-static-nodes.service
+  49ms modprobe@configfs.service
+  48ms modprobe@dm_mod.service
+  47ms systemd-journal-catalog-update.service
+  45ms modprobe@drm.service
+  41ms modprobe@efi_pstore.service
+  39ms modprobe@fuse.service
+  39ms modprobe@loop.service
+  37ms systemd-modules-load.service
+  36ms systemd-sysusers.service
+  31ms systemd-remount-fs.service
+  26ms systemd-update-utmp.service
+  21ms systemd-user-sessions.service
+  21ms snapd.socket
+  21ms sys-fs-fuse-connections.mount
+  21ms console-setup.service
+  21ms systemd-tmpfiles-setup-dev.service
+  20ms systemd-update-utmp-runlevel.service
+  20ms sys-kernel-config.mount
+  20ms setvtrgb.service
+  19ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @6.889s
+ - multi-user.target @6.888s
+   - snapd.seeded.service @5.351s +1.163s
+     - basic.target @5.263s
+       - sockets.target @5.261s
+         - snapd.socket @5.237s +21ms
+           - sysinit.target @5.223s
+             - cloud-init.service @2.784s +2.436s
+               - cloud-init-local.service @1.031s +1.723s
+                 - systemd-remount-fs.service @991ms +31ms
+                   - systemd-journald.socket @933ms
+                     - -.mount @888ms
+                       - -.slice @888ms
+=== FIRST BOOT 15 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+7.541s snapd.seeded.service
+5.289s landscape-client.service
+4.142s cloud-config.service
+3.332s cloud-init.service
+3.166s snapd.service
+2.077s cloud-init-local.service
+ 944ms dev-sde.device
+ 723ms cloud-final.service
+ 523ms systemd-resolved.service
+ 426ms wsl-pro.service
+ 254ms systemd-timesyncd.service
+ 208ms systemd-udev-trigger.service
+ 200ms rsyslog.service
+ 193ms systemd-udevd.service
+ 170ms systemd-journal-flush.service
+ 138ms e2scrub_reap.service
+ 135ms keyboard-setup.service
+ 134ms systemd-journald.service
+ 133ms ldconfig.service
+ 122ms dbus.service
+ 113ms systemd-logind.service
+ 111ms systemd-tmpfiles-setup.service
+  90ms systemd-journal-catalog-update.service
+  68ms systemd-timedated.service
+  66ms dev-hugepages.mount
+  65ms dev-mqueue.mount
+  64ms sys-kernel-debug.mount
+  63ms systemd-sysusers.service
+  62ms sys-kernel-tracing.mount
+  62ms systemd-sysctl.service
+  61ms systemd-tmpfiles-setup-dev-early.service
+  53ms systemd-update-utmp-runlevel.service
+  50ms kmod-static-nodes.service
+  50ms modprobe@configfs.service
+  49ms modprobe@dm_mod.service
+  46ms modprobe@drm.service
+  43ms modprobe@efi_pstore.service
+  40ms modprobe@fuse.service
+  36ms modprobe@loop.service
+  33ms systemd-update-done.service
+  33ms systemd-modules-load.service
+  33ms systemd-update-utmp.service
+  31ms systemd-remount-fs.service
+  30ms console-setup.service
+  29ms snapd.socket
+  26ms setvtrgb.service
+  22ms sys-fs-fuse-connections.mount
+  21ms sys-kernel-config.mount
+  18ms systemd-user-sessions.service
+  14ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @14.119s
+ - multi-user.target @14.118s
+   - snapd.seeded.service @6.574s +7.541s
+     - basic.target @6.519s
+       - sockets.target @6.518s
+         - snapd.socket @6.487s +29ms
+           - sysinit.target @6.452s
+             - cloud-init.service @3.116s +3.332s
+               - cloud-init-local.service @1.001s +2.077s
+                 - systemd-remount-fs.service @962ms +31ms
+                   - systemd-journald.socket @901ms
+                     - system.slice @867ms
+                       - -.slice @867ms
+=== FIRST BOOT 16 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.723s snapd.seeded.service
+2.421s cloud-init.service
+2.058s cloud-init-local.service
+1.723s landscape-client.service
+1.428s cloud-config.service
+ 901ms dev-sdd.device
+ 661ms snapd.service
+ 596ms cloud-final.service
+ 455ms systemd-resolved.service
+ 408ms wsl-pro.service
+ 259ms systemd-udev-trigger.service
+ 256ms systemd-timesyncd.service
+ 231ms rsyslog.service
+ 166ms systemd-journal-flush.service
+ 163ms systemd-udevd.service
+ 157ms keyboard-setup.service
+ 156ms systemd-journald.service
+ 142ms dbus.service
+ 141ms systemd-logind.service
+ 139ms e2scrub_reap.service
+ 107ms systemd-tmpfiles-setup.service
+ 107ms ldconfig.service
+ 106ms systemd-journal-catalog-update.service
+  94ms dev-hugepages.mount
+  93ms dev-mqueue.mount
+  91ms sys-kernel-debug.mount
+  90ms sys-kernel-tracing.mount
+  80ms modprobe@drm.service
+  80ms modprobe@dm_mod.service
+  80ms kmod-static-nodes.service
+  79ms modprobe@efi_pstore.service
+  77ms modprobe@configfs.service
+  73ms systemd-sysusers.service
+  72ms systemd-tmpfiles-setup-dev-early.service
+  69ms systemd-sysctl.service
+  68ms modprobe@fuse.service
+  64ms systemd-timedated.service
+  56ms modprobe@loop.service
+  53ms systemd-update-done.service
+  47ms systemd-update-utmp.service
+  45ms sys-fs-fuse-connections.mount
+  45ms systemd-modules-load.service
+  44ms systemd-remount-fs.service
+  43ms sys-kernel-config.mount
+  39ms console-setup.service
+  38ms systemd-user-sessions.service
+  36ms snapd.socket
+  20ms setvtrgb.service
+  16ms systemd-update-utmp-runlevel.service
+  12ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @9.400s
+ - multi-user.target @9.399s
+   - snapd.seeded.service @5.673s +3.723s
+     - basic.target @5.631s
+       - sockets.target @5.630s
+         - snapd.socket @5.594s +36ms
+           - sysinit.target @5.575s
+             - cloud-init.service @3.150s +2.421s
+               - cloud-init-local.service @1.062s +2.058s
+                 - systemd-remount-fs.service @994ms +44ms
+                   - systemd-journald.socket @911ms
+                     - -.mount @862ms
+                       - -.slice @863ms
+=== FIRST BOOT 17 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+4.766s snapd.seeded.service
+2.519s cloud-init.service
+1.859s cloud-init-local.service
+1.550s landscape-client.service
+1.290s cloud-config.service
+1.082s dev-sdd.device
+ 774ms cloud-final.service
+ 605ms snapd.service
+ 384ms wsl-pro.service
+ 378ms systemd-resolved.service
+ 299ms systemd-udev-trigger.service
+ 207ms systemd-udevd.service
+ 196ms rsyslog.service
+ 171ms keyboard-setup.service
+ 153ms systemd-journald.service
+ 147ms ldconfig.service
+ 137ms systemd-timesyncd.service
+ 126ms dev-hugepages.mount
+ 125ms dev-mqueue.mount
+ 122ms sys-kernel-debug.mount
+ 118ms sys-kernel-tracing.mount
+ 112ms systemd-journal-flush.service
+ 107ms systemd-logind.service
+  97ms kmod-static-nodes.service
+  95ms systemd-tmpfiles-setup-dev-early.service
+  94ms modprobe@configfs.service
+  88ms modprobe@dm_mod.service
+  86ms e2scrub_reap.service
+  84ms systemd-sysctl.service
+  77ms dbus.service
+  75ms modprobe@drm.service
+  75ms systemd-timedated.service
+  74ms modprobe@efi_pstore.service
+  74ms systemd-tmpfiles-setup.service
+  69ms modprobe@fuse.service
+  62ms modprobe@loop.service
+  57ms systemd-journal-catalog-update.service
+  53ms systemd-sysusers.service
+  50ms systemd-modules-load.service
+  44ms systemd-remount-fs.service
+  32ms systemd-update-utmp-runlevel.service
+  29ms systemd-update-utmp.service
+  28ms systemd-user-sessions.service
+  26ms systemd-tmpfiles-setup-dev.service
+  26ms snapd.socket
+  24ms sys-kernel-config.mount
+  23ms sys-fs-fuse-connections.mount
+  19ms setvtrgb.service
+  14ms console-setup.service
+  12ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @10.539s
+ - multi-user.target @10.537s
+   - snapd.seeded.service @5.767s +4.766s
+     - basic.target @5.732s
+       - sockets.target @5.732s
+         - snapd.socket @5.704s +26ms
+           - sysinit.target @5.689s
+             - cloud-init.service @3.166s +2.519s
+               - cloud-init-local.service @1.281s +1.859s
+                 - systemd-remount-fs.service @1.228s +44ms
+                   - systemd-journald.socket @1.114s
+                     - -.mount @1.069s
+                       - -.slice @1.065s
+=== FIRST BOOT 18 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+4.235s snapd.seeded.service
+1.760s landscape-client.service
+1.638s cloud-init.service
+1.615s cloud-init-local.service
+1.398s cloud-config.service
+ 650ms snapd.service
+ 588ms dev-sde.device
+ 539ms cloud-final.service
+ 406ms wsl-pro.service
+ 372ms systemd-resolved.service
+ 222ms rsyslog.service
+ 188ms systemd-udev-trigger.service
+ 154ms systemd-logind.service
+ 154ms systemd-timesyncd.service
+ 134ms systemd-udevd.service
+ 109ms keyboard-setup.service
+ 108ms dbus.service
+ 108ms e2scrub_reap.service
+ 100ms systemd-journald.service
+  91ms ldconfig.service
+  87ms systemd-journal-flush.service
+  55ms systemd-tmpfiles-setup-dev-early.service
+  54ms systemd-sysctl.service
+  51ms systemd-journal-catalog-update.service
+  47ms dev-hugepages.mount
+  47ms systemd-tmpfiles-setup.service
+  46ms dev-mqueue.mount
+  46ms systemd-timedated.service
+  45ms sys-kernel-debug.mount
+  45ms sys-kernel-tracing.mount
+  38ms systemd-sysusers.service
+  36ms modprobe@drm.service
+  36ms modprobe@efi_pstore.service
+  35ms snapd.socket
+  35ms kmod-static-nodes.service
+  35ms modprobe@configfs.service
+  35ms modprobe@dm_mod.service
+  34ms modprobe@fuse.service
+  34ms modprobe@loop.service
+  30ms systemd-modules-load.service
+  28ms systemd-remount-fs.service
+  26ms systemd-update-utmp.service
+  24ms systemd-update-done.service
+  22ms systemd-user-sessions.service
+  22ms setvtrgb.service
+  20ms sys-fs-fuse-connections.mount
+  19ms sys-kernel-config.mount
+  17ms console-setup.service
+  16ms systemd-update-utmp-runlevel.service
+  13ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @8.912s
+ - multi-user.target @8.909s
+   - snapd.seeded.service @4.665s +4.235s
+     - basic.target @4.628s
+       - sockets.target @4.628s
+         - snapd.socket @4.591s +35ms
+           - sysinit.target @4.576s
+             - cloud-init.service @2.935s +1.638s
+               - cloud-init-local.service @1.297s +1.615s
+                 - systemd-remount-fs.service @1.260s +28ms
+                   - systemd-journald.socket @1.216s
+                     - system.slice @1.175s
+                       - -.slice @1.175s
+=== FIRST BOOT 19 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.532s landscape-client.service
+2.653s snapd.seeded.service
+2.284s cloud-config.service
+2.093s snapd.service
+2.084s cloud-init.service
+1.814s wsl-pro.service
+1.652s cloud-init-local.service
+1.622s rsyslog.service
+ 813ms cloud-final.service
+ 689ms dev-sdd.device
+ 350ms systemd-resolved.service
+ 251ms systemd-udev-trigger.service
+ 201ms systemd-timedated.service
+ 176ms systemd-timesyncd.service
+ 162ms systemd-udevd.service
+ 143ms keyboard-setup.service
+ 133ms systemd-journald.service
+ 119ms ldconfig.service
+ 118ms dbus.service
+ 113ms e2scrub_reap.service
+ 103ms systemd-logind.service
+  82ms systemd-journal-flush.service
+  74ms dev-mqueue.mount
+  73ms dev-hugepages.mount
+  73ms sys-kernel-debug.mount
+  73ms sys-kernel-tracing.mount
+  72ms systemd-sysctl.service
+  71ms systemd-tmpfiles-setup-dev-early.service
+  62ms modprobe@configfs.service
+  61ms kmod-static-nodes.service
+  61ms modprobe@dm_mod.service
+  61ms systemd-tmpfiles-setup.service
+  58ms systemd-journal-catalog-update.service
+  56ms modprobe@drm.service
+  51ms modprobe@efi_pstore.service
+  45ms modprobe@fuse.service
+  43ms systemd-sysusers.service
+  42ms modprobe@loop.service
+  39ms systemd-modules-load.service
+  36ms systemd-remount-fs.service
+  33ms systemd-update-utmp.service
+  31ms systemd-user-sessions.service
+  31ms snapd.socket
+  27ms sys-fs-fuse-connections.mount
+  27ms systemd-tmpfiles-setup-dev.service
+  26ms sys-kernel-config.mount
+  22ms systemd-update-utmp-runlevel.service
+  20ms setvtrgb.service
+  19ms console-setup.service
+  18ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @8.439s
+ - multi-user.target @8.438s
+   - snapd.seeded.service @4.919s +2.653s
+     - basic.target @4.871s
+       - sockets.target @4.869s
+         - snapd.socket @4.836s +31ms
+           - sysinit.target @4.820s
+             - cloud-init.service @2.733s +2.084s
+               - cloud-init-local.service @1.054s +1.652s
+                 - systemd-remount-fs.service @1.003s +36ms
+                   - systemd-journald.socket @935ms
+                     - system.slice @891ms
+                       - -.slice @890ms
+=== FIRST BOOT 20 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+4.013s cloud-init.service
+2.795s snapd.seeded.service
+2.401s cloud-init-local.service
+1.669s landscape-client.service
+1.274s cloud-config.service
+1.044s dev-sdd.device
+ 770ms cloud-final.service
+ 643ms snapd.service
+ 636ms systemd-resolved.service
+ 396ms wsl-pro.service
+ 259ms systemd-udev-trigger.service
+ 232ms rsyslog.service
+ 214ms systemd-timesyncd.service
+ 190ms systemd-udevd.service
+ 153ms ldconfig.service
+ 148ms keyboard-setup.service
+ 136ms dbus.service
+ 131ms systemd-logind.service
+ 124ms e2scrub_reap.service
+ 123ms systemd-journald.service
+  98ms systemd-journal-flush.service
+  89ms systemd-sysctl.service
+  87ms systemd-tmpfiles-setup-dev-early.service
+  63ms dev-mqueue.mount
+  62ms dev-hugepages.mount
+  61ms sys-kernel-debug.mount
+  60ms systemd-timedated.service
+  59ms sys-kernel-tracing.mount
+  57ms systemd-tmpfiles-setup.service
+  50ms systemd-journal-catalog-update.service
+  49ms kmod-static-nodes.service
+  48ms modprobe@dm_mod.service
+  48ms modprobe@configfs.service
+  48ms modprobe@drm.service
+  47ms systemd-update-utmp.service
+  45ms modprobe@efi_pstore.service
+  40ms systemd-sysusers.service
+  38ms modprobe@fuse.service
+  37ms modprobe@loop.service
+  35ms systemd-modules-load.service
+  31ms sys-fs-fuse-connections.mount
+  31ms sys-kernel-config.mount
+  30ms systemd-remount-fs.service
+  27ms systemd-update-done.service
+  26ms snapd.socket
+  26ms console-setup.service
+  24ms systemd-tmpfiles-setup-dev.service
+  22ms systemd-update-utmp-runlevel.service
+  21ms systemd-user-sessions.service
+  21ms setvtrgb.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @10.479s
+ - multi-user.target @10.477s
+   - snapd.seeded.service @7.675s +2.795s
+     - basic.target @7.630s
+       - sockets.target @7.629s
+         - snapd.socket @7.602s +26ms
+           - sysinit.target @7.577s
+             - cloud-init.service @3.559s +4.013s
+               - cloud-init-local.service @1.130s +2.401s
+                 - systemd-remount-fs.service @1.086s +30ms
+                   - systemd-journald.socket @1.023s
+                     - -.mount @990ms
+                       - -.slice @990ms
+=== FIRST BOOT 21 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+2.015s cloud-init.service
+1.909s cloud-init-local.service
+1.819s landscape-client.service
+1.292s cloud-config.service
+1.202s snapd.seeded.service
+ 979ms dev-sdd.device
+ 623ms cloud-final.service
+ 611ms snapd.service
+ 399ms systemd-resolved.service
+ 368ms wsl-pro.service
+ 262ms systemd-udev-trigger.service
+ 198ms rsyslog.service
+ 189ms systemd-udevd.service
+ 168ms keyboard-setup.service
+ 157ms systemd-journald.service
+ 139ms systemd-timesyncd.service
+ 139ms dev-hugepages.mount
+ 135ms dev-mqueue.mount
+ 133ms sys-kernel-debug.mount
+ 125ms ldconfig.service
+ 120ms sys-kernel-tracing.mount
+ 116ms dbus.service
+ 106ms systemd-logind.service
+ 104ms e2scrub_reap.service
+ 102ms kmod-static-nodes.service
+  98ms modprobe@configfs.service
+  96ms systemd-tmpfiles-setup-dev-early.service
+  93ms modprobe@dm_mod.service
+  93ms systemd-journal-flush.service
+  89ms modprobe@drm.service
+  86ms systemd-sysctl.service
+  74ms modprobe@efi_pstore.service
+  71ms systemd-tmpfiles-setup.service
+  66ms modprobe@fuse.service
+  64ms systemd-timedated.service
+  62ms modprobe@loop.service
+  59ms systemd-journal-catalog-update.service
+  50ms systemd-modules-load.service
+  48ms systemd-remount-fs.service
+  36ms systemd-sysusers.service
+  34ms systemd-update-utmp.service
+  32ms console-setup.service
+  31ms snapd.socket
+  24ms sys-fs-fuse-connections.mount
+  24ms systemd-update-utmp-runlevel.service
+  21ms sys-kernel-config.mount
+  20ms systemd-user-sessions.service
+  18ms setvtrgb.service
+  13ms systemd-tmpfiles-setup-dev.service
+  13ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @7.159s
+ - multi-user.target @7.158s
+   - snapd.seeded.service @5.355s +1.202s
+     - basic.target @5.319s
+       - sockets.target @5.318s
+         - snapd.socket @5.286s +31ms
+           - sysinit.target @5.269s
+             - cloud-init.service @3.251s +2.015s
+               - cloud-init-local.service @1.298s +1.909s
+                 - systemd-remount-fs.service @1.237s +48ms
+                   - systemd-journald.socket @1.112s
+                     - -.mount @1.046s
+                       - -.slice @1.046s
+=== FIRST BOOT 22 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+2.731s snapd.seeded.service
+2.262s cloud-init.service
+1.957s cloud-init-local.service
+1.662s landscape-client.service
+1.368s cloud-config.service
+ 999ms dev-sdd.device
+ 680ms cloud-final.service
+ 639ms snapd.service
+ 415ms systemd-resolved.service
+ 393ms wsl-pro.service
+ 261ms systemd-udev-trigger.service
+ 206ms rsyslog.service
+ 187ms systemd-timesyncd.service
+ 175ms systemd-udevd.service
+ 172ms keyboard-setup.service
+ 166ms systemd-journald.service
+ 149ms systemd-journal-flush.service
+ 135ms dev-hugepages.mount
+ 133ms dev-mqueue.mount
+ 129ms sys-kernel-debug.mount
+ 125ms sys-kernel-tracing.mount
+ 117ms systemd-logind.service
+ 116ms ldconfig.service
+ 112ms dbus.service
+ 111ms e2scrub_reap.service
+  95ms systemd-tmpfiles-setup-dev-early.service
+  89ms systemd-sysctl.service
+  81ms kmod-static-nodes.service
+  80ms modprobe@configfs.service
+  74ms modprobe@dm_mod.service
+  73ms systemd-tmpfiles-setup.service
+  68ms modprobe@drm.service
+  62ms systemd-timedated.service
+  61ms modprobe@efi_pstore.service
+  56ms systemd-journal-catalog-update.service
+  55ms systemd-sysusers.service
+  54ms modprobe@fuse.service
+  49ms modprobe@loop.service
+  49ms systemd-update-utmp-runlevel.service
+  45ms sys-fs-fuse-connections.mount
+  43ms sys-kernel-config.mount
+  43ms systemd-modules-load.service
+  35ms systemd-remount-fs.service
+  30ms systemd-update-utmp.service
+  29ms snapd.socket
+  24ms console-setup.service
+  24ms systemd-user-sessions.service
+  22ms systemd-tmpfiles-setup-dev.service
+  20ms systemd-update-done.service
+  20ms setvtrgb.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @8.481s
+ - multi-user.target @8.478s
+   - snapd.seeded.service @5.740s +2.731s
+     - basic.target @5.704s
+       - sockets.target @5.703s
+         - snapd.socket @5.673s +29ms
+           - sysinit.target @5.659s
+             - cloud-init.service @3.394s +2.262s
+               - cloud-init-local.service @1.399s +1.957s
+                 - systemd-remount-fs.service @1.339s +35ms
+                   - systemd-journald.socket @1.212s
+                     - system.slice @1.160s
+                       - -.slice @1.160s
+=== FIRST BOOT 23 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.422s snapd.seeded.service
+2.748s cloud-init.service
+2.021s landscape-client.service
+1.912s cloud-init-local.service
+1.633s cloud-config.service
+ 982ms dev-sdd.device
+ 738ms snapd.service
+ 571ms cloud-final.service
+ 401ms systemd-resolved.service
+ 356ms wsl-pro.service
+ 270ms systemd-udev-trigger.service
+ 190ms keyboard-setup.service
+ 186ms rsyslog.service
+ 183ms systemd-udevd.service
+ 172ms systemd-timesyncd.service
+ 168ms systemd-journald.service
+ 133ms dev-hugepages.mount
+ 128ms dev-mqueue.mount
+ 126ms sys-kernel-debug.mount
+ 122ms sys-kernel-tracing.mount
+ 116ms systemd-journal-flush.service
+ 110ms dbus.service
+ 100ms systemd-timedated.service
+  98ms systemd-logind.service
+  96ms e2scrub_reap.service
+  91ms systemd-tmpfiles-setup-dev-early.service
+  90ms kmod-static-nodes.service
+  88ms modprobe@configfs.service
+  83ms modprobe@dm_mod.service
+  81ms systemd-sysctl.service
+  81ms ldconfig.service
+  80ms systemd-journal-catalog-update.service
+  80ms modprobe@drm.service
+  70ms systemd-tmpfiles-setup.service
+  66ms modprobe@efi_pstore.service
+  57ms modprobe@fuse.service
+  55ms modprobe@loop.service
+  51ms systemd-modules-load.service
+  44ms systemd-sysusers.service
+  43ms systemd-remount-fs.service
+  31ms systemd-update-utmp.service
+  30ms sys-fs-fuse-connections.mount
+  28ms sys-kernel-config.mount
+  27ms console-setup.service
+  25ms snapd.socket
+  21ms systemd-tmpfiles-setup-dev.service
+  21ms systemd-user-sessions.service
+  15ms setvtrgb.service
+  13ms systemd-update-utmp-runlevel.service
+  12ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @9.530s
+ - multi-user.target @9.529s
+   - snapd.seeded.service @6.102s +3.422s
+     - basic.target @6.070s
+       - sockets.target @6.069s
+         - snapd.socket @6.042s +25ms
+           - sysinit.target @6.027s
+             - cloud-init.service @3.276s +2.748s
+               - cloud-init-local.service @1.341s +1.912s
+                 - systemd-remount-fs.service @1.282s +43ms
+                   - systemd-journald.socket @1.160s
+                     - system.slice @1.110s
+                       - -.slice @1.110s
+=== FIRST BOOT 24 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+2.604s cloud-init.service
+2.016s cloud-init-local.service
+1.626s landscape-client.service
+1.248s snapd.seeded.service
+1.237s cloud-config.service
+ 937ms dev-sdd.device
+ 647ms snapd.service
+ 646ms cloud-final.service
+ 425ms systemd-resolved.service
+ 386ms wsl-pro.service
+ 292ms systemd-udev-trigger.service
+ 204ms rsyslog.service
+ 189ms systemd-udevd.service
+ 179ms systemd-timesyncd.service
+ 158ms systemd-journal-flush.service
+ 150ms keyboard-setup.service
+ 130ms systemd-journald.service
+ 121ms ldconfig.service
+ 117ms dbus.service
+ 109ms systemd-logind.service
+ 102ms e2scrub_reap.service
+  97ms systemd-sysusers.service
+  83ms systemd-tmpfiles-setup-dev-early.service
+  81ms systemd-sysctl.service
+  68ms systemd-tmpfiles-setup.service
+  68ms sys-kernel-debug.mount
+  68ms dev-mqueue.mount
+  67ms dev-hugepages.mount
+  67ms sys-kernel-tracing.mount
+  64ms systemd-timedated.service
+  55ms kmod-static-nodes.service
+  55ms modprobe@configfs.service
+  55ms systemd-journal-catalog-update.service
+  51ms modprobe@dm_mod.service
+  51ms modprobe@efi_pstore.service
+  51ms modprobe@drm.service
+  49ms modprobe@fuse.service
+  48ms modprobe@loop.service
+  40ms systemd-modules-load.service
+  39ms systemd-remount-fs.service
+  36ms systemd-update-utmp.service
+  36ms snapd.socket
+  34ms sys-fs-fuse-connections.mount
+  34ms sys-kernel-config.mount
+  32ms systemd-update-done.service
+  28ms setvtrgb.service
+  24ms systemd-tmpfiles-setup-dev.service
+  24ms systemd-user-sessions.service
+  23ms console-setup.service
+  17ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @7.423s
+ - multi-user.target @7.422s
+   - snapd.seeded.service @5.815s +1.248s
+     - basic.target @5.771s
+       - sockets.target @5.770s
+         - snapd.socket @5.732s +36ms
+           - sysinit.target @5.711s
+             - cloud-init.service @3.104s +2.604s
+               - cloud-init-local.service @1.064s +2.016s
+                 - systemd-remount-fs.service @1.004s +39ms
+                   - systemd-journald.socket @945ms
+                     - system.slice @899ms
+                       - -.slice @901ms
+=== FIRST BOOT 25 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.212s snapd.seeded.service
+1.893s cloud-init.service
+1.861s cloud-init-local.service
+1.783s landscape-client.service
+1.496s cloud-config.service
+ 773ms dev-sdd.device
+ 645ms snapd.service
+ 583ms cloud-final.service
+ 423ms systemd-resolved.service
+ 379ms wsl-pro.service
+ 286ms systemd-udev-trigger.service
+ 239ms systemd-timesyncd.service
+ 227ms rsyslog.service
+ 188ms systemd-udevd.service
+ 166ms keyboard-setup.service
+ 159ms dbus.service
+ 156ms systemd-journald.service
+ 144ms ldconfig.service
+ 138ms e2scrub_reap.service
+ 115ms systemd-timedated.service
+ 107ms systemd-journal-flush.service
+ 100ms systemd-logind.service
+ 100ms dev-hugepages.mount
+  99ms dev-mqueue.mount
+  97ms sys-kernel-debug.mount
+  93ms sys-kernel-tracing.mount
+  80ms systemd-sysctl.service
+  79ms systemd-tmpfiles-setup-dev-early.service
+  75ms kmod-static-nodes.service
+  73ms modprobe@configfs.service
+  69ms systemd-journal-catalog-update.service
+  65ms modprobe@dm_mod.service
+  62ms systemd-tmpfiles-setup.service
+  61ms modprobe@drm.service
+  56ms modprobe@efi_pstore.service
+  54ms modprobe@fuse.service
+  50ms modprobe@loop.service
+  48ms sys-fs-fuse-connections.mount
+  46ms sys-kernel-config.mount
+  44ms systemd-sysusers.service
+  38ms systemd-modules-load.service
+  35ms systemd-remount-fs.service
+  30ms systemd-update-utmp.service
+  27ms systemd-update-done.service
+  26ms console-setup.service
+  24ms systemd-tmpfiles-setup-dev.service
+  24ms snapd.socket
+  22ms systemd-update-utmp-runlevel.service
+  21ms systemd-user-sessions.service
+  19ms setvtrgb.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @8.093s
+ - multi-user.target @8.090s
+   - snapd.seeded.service @4.872s +3.212s
+     - basic.target @4.782s
+       - sockets.target @4.780s
+         - snapd.socket @4.753s +24ms
+           - sysinit.target @4.739s
+             - cloud-init.service @2.843s +1.893s
+               - cloud-init-local.service @947ms +1.861s
+                 - systemd-remount-fs.service @886ms +35ms
+                   - systemd-journald.socket @790ms
+                     - -.mount @749ms
+                       - -.slice @747ms
+=== FIRST BOOT 26 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+2.346s landscape-client.service
+1.862s cloud-init.service
+1.757s cloud-config.service
+1.671s cloud-init-local.service
+1.592s snapd.seeded.service
+ 782ms dev-sdd.device
+ 763ms snapd.service
+ 597ms cloud-final.service
+ 358ms wsl-pro.service
+ 356ms systemd-resolved.service
+ 268ms systemd-udev-trigger.service
+ 191ms rsyslog.service
+ 188ms systemd-udevd.service
+ 179ms systemd-timesyncd.service
+ 147ms keyboard-setup.service
+ 114ms systemd-journald.service
+ 113ms systemd-journal-flush.service
+ 113ms systemd-logind.service
+ 109ms dbus.service
+ 101ms systemd-timedated.service
+  96ms e2scrub_reap.service
+  78ms ldconfig.service
+  74ms systemd-tmpfiles-setup-dev-early.service
+  72ms dev-mqueue.mount
+  72ms systemd-sysctl.service
+  72ms sys-kernel-debug.mount
+  71ms dev-hugepages.mount
+  70ms sys-kernel-tracing.mount
+  62ms systemd-tmpfiles-setup.service
+  57ms kmod-static-nodes.service
+  57ms modprobe@configfs.service
+  56ms systemd-journal-catalog-update.service
+  54ms modprobe@dm_mod.service
+  50ms modprobe@drm.service
+  46ms modprobe@efi_pstore.service
+  44ms modprobe@fuse.service
+  41ms modprobe@loop.service
+  41ms snapd.socket
+  37ms systemd-modules-load.service
+  35ms systemd-remount-fs.service
+  31ms sys-fs-fuse-connections.mount
+  31ms systemd-sysusers.service
+  30ms systemd-update-utmp.service
+  26ms sys-kernel-config.mount
+  23ms systemd-update-done.service
+  22ms console-setup.service
+  19ms systemd-user-sessions.service
+  19ms systemd-update-utmp-runlevel.service
+  19ms systemd-tmpfiles-setup-dev.service
+  18ms setvtrgb.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @7.005s
+ - multi-user.target @7.004s
+   - snapd.seeded.service @4.674s +1.592s
+     - basic.target @4.631s
+       - sockets.target @4.631s
+         - snapd.socket @4.589s +41ms
+           - sysinit.target @4.574s
+             - cloud-init.service @2.709s +1.862s
+               - cloud-init-local.service @1.007s +1.671s
+                 - systemd-remount-fs.service @957ms +35ms
+                   - systemd-journald.socket @894ms
+                     - system.slice @867ms
+                       - -.slice @865ms
+=== FIRST BOOT 27 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+4.176s snapd.seeded.service
+1.704s landscape-client.service
+1.678s cloud-init-local.service
+1.585s cloud-init.service
+1.428s cloud-config.service
+ 692ms dev-sde.device
+ 594ms snapd.service
+ 544ms cloud-final.service
+ 377ms wsl-pro.service
+ 335ms systemd-resolved.service
+ 231ms systemd-udev-trigger.service
+ 191ms rsyslog.service
+ 174ms systemd-udevd.service
+ 170ms systemd-timedated.service
+ 154ms systemd-timesyncd.service
+ 138ms keyboard-setup.service
+ 128ms systemd-journald.service
+ 114ms ldconfig.service
+ 113ms systemd-logind.service
+ 111ms dbus.service
+ 101ms systemd-journal-flush.service
+  91ms e2scrub_reap.service
+  76ms dev-hugepages.mount
+  74ms dev-mqueue.mount
+  72ms sys-kernel-debug.mount
+  68ms sys-kernel-tracing.mount
+  63ms systemd-sysctl.service
+  61ms systemd-tmpfiles-setup-dev-early.service
+  57ms systemd-journal-catalog-update.service
+  56ms systemd-tmpfiles-setup.service
+  54ms kmod-static-nodes.service
+  52ms modprobe@configfs.service
+  50ms modprobe@dm_mod.service
+  49ms modprobe@drm.service
+  43ms modprobe@efi_pstore.service
+  43ms modprobe@fuse.service
+  42ms systemd-sysusers.service
+  41ms modprobe@loop.service
+  37ms snapd.socket
+  34ms systemd-modules-load.service
+  30ms systemd-update-utmp.service
+  30ms systemd-remount-fs.service
+  28ms sys-fs-fuse-connections.mount
+  25ms sys-kernel-config.mount
+  23ms console-setup.service
+  22ms systemd-tmpfiles-setup-dev.service
+  20ms systemd-update-utmp-runlevel.service
+  19ms systemd-user-sessions.service
+  17ms setvtrgb.service
+  10ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @8.668s
+ - multi-user.target @8.667s
+   - snapd.seeded.service @4.488s +4.176s
+     - basic.target @4.454s
+       - sockets.target @4.454s
+         - snapd.socket @4.416s +37ms
+           - sysinit.target @4.401s
+             - cloud-init.service @2.812s +1.585s
+               - cloud-init-local.service @1.118s +1.678s
+                 - systemd-remount-fs.service @1.073s +30ms
+                   - systemd-journald.socket @1.000s
+                     - system.slice @955ms
+                       - -.slice @955ms
+=== FIRST BOOT 28 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+5.756s snapd.seeded.service
+4.310s cloud-init.service
+1.867s landscape-client.service
+1.718s cloud-init-local.service
+1.333s cloud-config.service
+ 692ms dev-sde.device
+ 685ms cloud-final.service
+ 632ms snapd.service
+ 372ms wsl-pro.service
+ 356ms systemd-resolved.service
+ 217ms rsyslog.service
+ 184ms systemd-udev-trigger.service
+ 150ms systemd-timesyncd.service
+ 123ms systemd-udevd.service
+ 122ms keyboard-setup.service
+ 107ms systemd-logind.service
+ 106ms dbus.service
+ 104ms systemd-journald.service
+  90ms e2scrub_reap.service
+  87ms ldconfig.service
+  69ms systemd-timedated.service
+  58ms systemd-tmpfiles-setup-dev-early.service
+  58ms dev-hugepages.mount
+  56ms dev-mqueue.mount
+  55ms sys-kernel-debug.mount
+  54ms sys-kernel-tracing.mount
+  54ms systemd-sysctl.service
+  48ms systemd-tmpfiles-setup.service
+  45ms systemd-journal-flush.service
+  43ms systemd-journal-catalog-update.service
+  42ms kmod-static-nodes.service
+  41ms modprobe@dm_mod.service
+  41ms modprobe@configfs.service
+  40ms modprobe@drm.service
+  38ms modprobe@efi_pstore.service
+  34ms modprobe@fuse.service
+  33ms modprobe@loop.service
+  32ms systemd-sysusers.service
+  32ms snapd.socket
+  30ms systemd-update-utmp-runlevel.service
+  30ms systemd-modules-load.service
+  28ms systemd-remount-fs.service
+  24ms systemd-update-utmp.service
+  22ms systemd-update-done.service
+  21ms sys-fs-fuse-connections.mount
+  21ms console-setup.service
+  19ms systemd-user-sessions.service
+  19ms setvtrgb.service
+  18ms sys-kernel-config.mount
+  18ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @13.074s
+ - multi-user.target @13.074s
+   - snapd.seeded.service @7.316s +5.756s
+     - basic.target @7.281s
+       - sockets.target @7.281s
+         - snapd.socket @7.248s +32ms
+           - sysinit.target @7.233s
+             - cloud-init.service @2.919s +4.310s
+               - cloud-init-local.service @1.167s +1.718s
+                 - systemd-remount-fs.service @1.126s +28ms
+                   - systemd-journald.socket @1.057s
+                     - system.slice @929ms
+                       - -.slice @928ms
+=== FIRST BOOT 29 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+2.178s cloud-init-local.service
+1.633s landscape-client.service
+1.355s cloud-init.service
+1.263s cloud-config.service
+1.180s snapd.seeded.service
+1.003s dev-sdd.device
+ 663ms cloud-final.service
+ 628ms snapd.service
+ 397ms wsl-pro.service
+ 364ms systemd-resolved.service
+ 243ms systemd-udev-trigger.service
+ 222ms rsyslog.service
+ 209ms systemd-udevd.service
+ 164ms systemd-journald.service
+ 164ms keyboard-setup.service
+ 160ms systemd-timesyncd.service
+ 143ms ldconfig.service
+ 116ms e2scrub_reap.service
+ 113ms dbus.service
+ 112ms systemd-logind.service
+ 104ms dev-hugepages.mount
+ 103ms dev-mqueue.mount
+ 101ms sys-kernel-debug.mount
+ 100ms systemd-tmpfiles-setup-dev-early.service
+  98ms sys-kernel-tracing.mount
+  92ms systemd-journal-flush.service
+  91ms systemd-sysctl.service
+  82ms kmod-static-nodes.service
+  79ms modprobe@configfs.service
+  74ms modprobe@dm_mod.service
+  70ms modprobe@drm.service
+  68ms modprobe@efi_pstore.service
+  66ms systemd-tmpfiles-setup.service
+  65ms modprobe@fuse.service
+  63ms modprobe@loop.service
+  60ms systemd-timedated.service
+  60ms systemd-journal-catalog-update.service
+  51ms systemd-modules-load.service
+  46ms systemd-remount-fs.service
+  36ms systemd-sysusers.service
+  32ms snapd.socket
+  31ms systemd-update-utmp.service
+  28ms systemd-user-sessions.service
+  27ms sys-fs-fuse-connections.mount
+  23ms sys-kernel-config.mount
+  21ms systemd-update-done.service
+  20ms console-setup.service
+  20ms setvtrgb.service
+  15ms systemd-tmpfiles-setup-dev.service
+  14ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @6.548s
+ - multi-user.target @6.548s
+   - snapd.seeded.service @4.931s +1.180s
+     - basic.target @4.898s
+       - sockets.target @4.897s
+         - snapd.socket @4.864s +32ms
+           - sysinit.target @4.849s
+             - cloud-init.service @3.492s +1.355s
+               - cloud-init-local.service @1.284s +2.178s
+                 - systemd-remount-fs.service @1.198s +46ms
+                   - systemd-journald.socket @1.108s
+                     - -.mount @1.061s
+                       - -.slice @1.061s
+=== FIRST BOOT 30 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+4.275s cloud-init.service
+3.221s snapd.seeded.service
+2.003s cloud-init-local.service
+1.680s landscape-client.service
+1.355s cloud-config.service
+ 866ms dev-sdd.device
+ 627ms snapd.service
+ 624ms cloud-final.service
+ 385ms wsl-pro.service
+ 376ms systemd-resolved.service
+ 309ms systemd-udev-trigger.service
+ 248ms rsyslog.service
+ 209ms keyboard-setup.service
+ 208ms systemd-journald.service
+ 206ms systemd-udevd.service
+ 171ms systemd-timesyncd.service
+ 140ms dbus.service
+ 137ms e2scrub_reap.service
+ 110ms systemd-logind.service
+ 100ms dev-mqueue.mount
+ 100ms sys-kernel-debug.mount
+  98ms sys-kernel-tracing.mount
+  97ms dev-hugepages.mount
+  95ms systemd-journal-flush.service
+  91ms ldconfig.service
+  87ms modprobe@dm_mod.service
+  87ms modprobe@configfs.service
+  86ms systemd-sysctl.service
+  86ms modprobe@drm.service
+  86ms systemd-tmpfiles-setup.service
+  84ms kmod-static-nodes.service
+  84ms systemd-tmpfiles-setup-dev-early.service
+  83ms systemd-timedated.service
+  82ms modprobe@loop.service
+  82ms systemd-modules-load.service
+  81ms systemd-remount-fs.service
+  76ms modprobe@fuse.service
+  74ms modprobe@efi_pstore.service
+  60ms systemd-journal-catalog-update.service
+  55ms systemd-sysusers.service
+  37ms sys-fs-fuse-connections.mount
+  34ms snapd.socket
+  31ms sys-kernel-config.mount
+  31ms systemd-update-utmp.service
+  24ms systemd-user-sessions.service
+  23ms console-setup.service
+  22ms setvtrgb.service
+  20ms systemd-update-done.service
+  17ms systemd-update-utmp-runlevel.service
+  14ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @10.942s
+ - multi-user.target @10.941s
+   - snapd.seeded.service @7.717s +3.221s
+     - basic.target @7.683s
+       - sockets.target @7.682s
+         - snapd.socket @7.647s +34ms
+           - sysinit.target @7.631s
+             - cloud-init.service @3.353s +4.275s
+               - cloud-init-local.service @1.306s +2.003s
+                 - systemd-remount-fs.service @1.174s +81ms
+                   - systemd-journald.socket @1.090s
+                     - -.mount @1.054s
+                       - -.slice @1.054s
+=== FIRST BOOT 31 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.203s snapd.seeded.service
+1.820s cloud-init.service
+1.752s landscape-client.service
+1.751s cloud-init-local.service
+1.415s cloud-config.service
+ 725ms dev-sdd.device
+ 624ms snapd.service
+ 536ms cloud-final.service
+ 374ms wsl-pro.service
+ 346ms systemd-resolved.service
+ 269ms systemd-udev-trigger.service
+ 218ms rsyslog.service
+ 183ms systemd-udevd.service
+ 147ms keyboard-setup.service
+ 144ms systemd-timesyncd.service
+ 136ms systemd-journal-flush.service
+ 124ms systemd-journald.service
+ 110ms dbus.service
+ 108ms ldconfig.service
+ 107ms systemd-logind.service
+  94ms e2scrub_reap.service
+  86ms systemd-sysctl.service
+  82ms systemd-tmpfiles-setup-dev-early.service
+  77ms dev-mqueue.mount
+  76ms dev-hugepages.mount
+  75ms sys-kernel-debug.mount
+  72ms systemd-journal-catalog-update.service
+  72ms sys-kernel-tracing.mount
+  61ms kmod-static-nodes.service
+  59ms modprobe@configfs.service
+  58ms modprobe@drm.service
+  58ms modprobe@efi_pstore.service
+  58ms modprobe@dm_mod.service
+  57ms systemd-tmpfiles-setup.service
+  49ms systemd-timedated.service
+  48ms modprobe@fuse.service
+  47ms systemd-sysusers.service
+  45ms modprobe@loop.service
+  42ms systemd-modules-load.service
+  41ms snapd.socket
+  38ms systemd-remount-fs.service
+  35ms sys-kernel-config.mount
+  35ms sys-fs-fuse-connections.mount
+  29ms systemd-update-utmp.service
+  23ms setvtrgb.service
+  21ms systemd-user-sessions.service
+  18ms systemd-update-utmp-runlevel.service
+  18ms console-setup.service
+  15ms systemd-tmpfiles-setup-dev.service
+  12ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @7.919s
+ - multi-user.target @7.916s
+   - snapd.seeded.service @4.705s +3.203s
+     - basic.target @4.661s
+       - sockets.target @4.661s
+         - snapd.socket @4.618s +41ms
+           - sysinit.target @4.598s
+             - cloud-init.service @2.775s +1.820s
+               - cloud-init-local.service @995ms +1.751s
+                 - systemd-remount-fs.service @938ms +38ms
+                   - systemd-journald.socket @867ms
+                     - system.slice @825ms
+                       - -.slice @824ms
+=== FIRST BOOT 32 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+1.905s cloud-init.service
+1.755s landscape-client.service
+1.679s cloud-init-local.service
+1.235s cloud-config.service
+1.200s snapd.seeded.service
+ 674ms dev-sdd.device
+ 636ms snapd.service
+ 555ms cloud-final.service
+ 379ms systemd-resolved.service
+ 370ms wsl-pro.service
+ 250ms systemd-udev-trigger.service
+ 205ms systemd-timesyncd.service
+ 204ms rsyslog.service
+ 148ms keyboard-setup.service
+ 134ms systemd-journald.service
+ 130ms systemd-udevd.service
+ 120ms systemd-journal-flush.service
+ 113ms dbus.service
+ 111ms e2scrub_reap.service
+ 106ms systemd-logind.service
+  81ms dev-mqueue.mount
+  80ms sys-kernel-debug.mount
+  79ms dev-hugepages.mount
+  79ms sys-kernel-tracing.mount
+  72ms ldconfig.service
+  72ms systemd-timedated.service
+  68ms systemd-sysctl.service
+  67ms systemd-tmpfiles-setup-dev-early.service
+  63ms kmod-static-nodes.service
+  62ms modprobe@configfs.service
+  60ms systemd-tmpfiles-setup.service
+  59ms modprobe@dm_mod.service
+  56ms systemd-journal-catalog-update.service
+  53ms modprobe@drm.service
+  49ms modprobe@efi_pstore.service
+  49ms modprobe@fuse.service
+  47ms modprobe@loop.service
+  45ms systemd-update-utmp.service
+  43ms systemd-sysusers.service
+  42ms sys-fs-fuse-connections.mount
+  41ms systemd-modules-load.service
+  39ms sys-kernel-config.mount
+  36ms snapd.socket
+  34ms systemd-update-done.service
+  34ms systemd-remount-fs.service
+  22ms systemd-user-sessions.service
+  20ms console-setup.service
+  19ms setvtrgb.service
+  18ms systemd-update-utmp-runlevel.service
+  11ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @6.600s
+ - multi-user.target @6.599s
+   - snapd.seeded.service @4.860s +1.200s
+     - basic.target @4.806s
+       - sockets.target @4.806s
+         - snapd.socket @4.768s +36ms
+           - sysinit.target @4.736s
+             - cloud-init.service @2.827s +1.905s
+               - cloud-init-local.service @1.122s +1.679s
+                 - systemd-remount-fs.service @1.070s +34ms
+                   - systemd-journald.socket @974ms
+                     - -.mount @910ms
+                       - -.slice @909ms
+=== FIRST BOOT 33 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+4.199s snapd.seeded.service
+3.282s cloud-init.service
+1.740s cloud-init-local.service
+1.699s landscape-client.service
+1.417s cloud-config.service
+ 751ms dev-sdd.device
+ 679ms cloud-final.service
+ 604ms snapd.service
+ 378ms wsl-pro.service
+ 346ms systemd-resolved.service
+ 244ms systemd-udev-trigger.service
+ 192ms rsyslog.service
+ 172ms systemd-timesyncd.service
+ 157ms systemd-udevd.service
+ 135ms keyboard-setup.service
+ 119ms ldconfig.service
+ 107ms dbus.service
+ 104ms e2scrub_reap.service
+ 102ms systemd-journal-flush.service
+ 100ms systemd-logind.service
+  98ms systemd-journald.service
+  71ms systemd-timedated.service
+  63ms systemd-tmpfiles-setup.service
+  63ms systemd-sysctl.service
+  60ms systemd-tmpfiles-setup-dev-early.service
+  56ms systemd-sysusers.service
+  53ms dev-mqueue.mount
+  52ms dev-hugepages.mount
+  52ms sys-kernel-debug.mount
+  50ms systemd-journal-catalog-update.service
+  50ms sys-kernel-tracing.mount
+  41ms kmod-static-nodes.service
+  41ms modprobe@configfs.service
+  39ms modprobe@dm_mod.service
+  37ms modprobe@drm.service
+  35ms modprobe@efi_pstore.service
+  34ms modprobe@fuse.service
+  32ms modprobe@loop.service
+  30ms systemd-update-utmp.service
+  30ms snapd.socket
+  29ms systemd-modules-load.service
+  27ms systemd-remount-fs.service
+  25ms systemd-update-done.service
+  21ms console-setup.service
+  21ms setvtrgb.service
+  20ms sys-fs-fuse-connections.mount
+  19ms systemd-user-sessions.service
+  19ms sys-kernel-config.mount
+  19ms systemd-tmpfiles-setup-dev.service
+  15ms systemd-update-utmp-runlevel.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @10.339s
+ - multi-user.target @10.338s
+   - snapd.seeded.service @6.137s +4.199s
+     - basic.target @6.099s
+       - sockets.target @6.099s
+         - snapd.socket @6.067s +30ms
+           - sysinit.target @6.053s
+             - cloud-init.service @2.767s +3.282s
+               - cloud-init-local.service @992ms +1.740s
+                 - systemd-remount-fs.service @957ms +27ms
+                   - systemd-journald.socket @907ms
+                     - -.mount @857ms
+                       - -.slice @856ms
+=== FIRST BOOT 34 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+1.909s landscape-client.service
+1.767s cloud-init-local.service
+1.603s cloud-init.service
+1.549s cloud-config.service
+1.236s snapd.seeded.service
+ 856ms dev-sde.device
+ 653ms snapd.service
+ 637ms cloud-final.service
+ 406ms wsl-pro.service
+ 404ms systemd-udev-trigger.service
+ 343ms systemd-resolved.service
+ 230ms rsyslog.service
+ 208ms systemd-tmpfiles-setup-dev-early.service
+ 207ms systemd-sysctl.service
+ 163ms systemd-udevd.service
+ 156ms systemd-logind.service
+ 141ms keyboard-setup.service
+ 141ms systemd-journal-flush.service
+ 130ms systemd-timesyncd.service
+ 118ms e2scrub_reap.service
+ 117ms systemd-journald.service
+ 115ms dbus.service
+  95ms ldconfig.service
+  77ms systemd-journal-catalog-update.service
+  67ms systemd-timedated.service
+  60ms systemd-tmpfiles-setup.service
+  59ms dev-hugepages.mount
+  58ms dev-mqueue.mount
+  57ms sys-kernel-debug.mount
+  55ms sys-kernel-tracing.mount
+  48ms modprobe@configfs.service
+  47ms modprobe@dm_mod.service
+  46ms modprobe@drm.service
+  44ms kmod-static-nodes.service
+  41ms modprobe@efi_pstore.service
+  40ms modprobe@fuse.service
+  39ms modprobe@loop.service
+  37ms systemd-modules-load.service
+  35ms systemd-user-sessions.service
+  34ms systemd-remount-fs.service
+  30ms setvtrgb.service
+  30ms systemd-update-utmp.service
+  27ms console-setup.service
+  26ms systemd-sysusers.service
+  22ms sys-fs-fuse-connections.mount
+  21ms systemd-tmpfiles-setup-dev.service
+  20ms sys-kernel-config.mount
+  17ms systemd-update-utmp-runlevel.service
+  13ms snapd.socket
+  10ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @6.388s
+ - multi-user.target @6.387s
+   - snapd.seeded.service @4.497s +1.236s
+     - basic.target @4.456s
+       - sockets.target @4.456s
+         - snapd.socket @4.442s +13ms
+           - sysinit.target @4.426s
+             - cloud-init.service @2.819s +1.603s
+               - cloud-init-local.service @1.033s +1.767s
+                 - systemd-remount-fs.service @990ms +34ms
+                   - systemd-journald.socket @936ms
+                     - -.mount @908ms
+                       - -.slice @908ms
+=== FIRST BOOT 35 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+4.224s snapd.seeded.service
+3.223s cloud-init.service
+1.956s cloud-init-local.service
+1.615s landscape-client.service
+1.292s cloud-config.service
+ 792ms dev-sde.device
+ 750ms cloud-final.service
+ 658ms snapd.service
+ 405ms wsl-pro.service
+ 371ms systemd-resolved.service
+ 269ms systemd-udev-trigger.service
+ 239ms systemd-timesyncd.service
+ 192ms rsyslog.service
+ 149ms systemd-udevd.service
+ 144ms keyboard-setup.service
+ 143ms systemd-journald.service
+ 129ms systemd-journal-flush.service
+ 129ms ldconfig.service
+ 121ms systemd-logind.service
+ 105ms e2scrub_reap.service
+  99ms dbus.service
+  75ms systemd-tmpfiles-setup-dev-early.service
+  75ms systemd-timedated.service
+  71ms systemd-sysctl.service
+  68ms systemd-tmpfiles-setup.service
+  66ms systemd-journal-catalog-update.service
+  58ms dev-hugepages.mount
+  58ms dev-mqueue.mount
+  56ms sys-kernel-debug.mount
+  55ms sys-kernel-tracing.mount
+  47ms modprobe@drm.service
+  47ms modprobe@efi_pstore.service
+  46ms kmod-static-nodes.service
+  45ms modprobe@dm_mod.service
+  44ms modprobe@configfs.service
+  43ms systemd-update-utmp.service
+  40ms modprobe@fuse.service
+  38ms modprobe@loop.service
+  37ms systemd-sysusers.service
+  36ms systemd-modules-load.service
+  34ms systemd-remount-fs.service
+  31ms sys-fs-fuse-connections.mount
+  28ms sys-kernel-config.mount
+  25ms systemd-tmpfiles-setup-dev.service
+  22ms console-setup.service
+  22ms snapd.socket
+  21ms systemd-user-sessions.service
+  19ms systemd-update-utmp-runlevel.service
+  19ms setvtrgb.service
+  18ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @10.794s
+ - multi-user.target @10.793s
+   - snapd.seeded.service @6.565s +4.224s
+     - basic.target @6.518s
+       - sockets.target @6.518s
+         - snapd.socket @6.495s +22ms
+           - sysinit.target @6.479s
+             - cloud-init.service @3.253s +3.223s
+               - cloud-init-local.service @1.275s +1.956s
+                 - systemd-remount-fs.service @1.186s +34ms
+                   - systemd-journald.socket @1.135s
+                     - system.slice @1.093s
+                       - -.slice @1.093s
+=== FIRST BOOT 36 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+4.732s snapd.seeded.service
+2.361s cloud-init.service
+2.007s cloud-init-local.service
+1.611s landscape-client.service
+1.181s cloud-config.service
+1.006s dev-sdd.device
+ 757ms cloud-final.service
+ 646ms snapd.service
+ 495ms systemd-resolved.service
+ 375ms wsl-pro.service
+ 316ms systemd-udev-trigger.service
+ 211ms rsyslog.service
+ 207ms keyboard-setup.service
+ 199ms systemd-udevd.service
+ 190ms systemd-journald.service
+ 153ms ldconfig.service
+ 137ms systemd-timesyncd.service
+ 130ms dbus.service
+ 113ms systemd-logind.service
+ 111ms e2scrub_reap.service
+ 108ms dev-hugepages.mount
+ 106ms dev-mqueue.mount
+ 105ms systemd-journal-catalog-update.service
+ 105ms sys-kernel-debug.mount
+ 103ms sys-kernel-tracing.mount
+  96ms systemd-sysctl.service
+  90ms systemd-tmpfiles-setup-dev-early.service
+  90ms systemd-journal-flush.service
+  86ms kmod-static-nodes.service
+  82ms modprobe@configfs.service
+  78ms modprobe@dm_mod.service
+  75ms modprobe@drm.service
+  70ms modprobe@efi_pstore.service
+  69ms modprobe@fuse.service
+  65ms sys-kernel-config.mount
+  64ms modprobe@loop.service
+  64ms sys-fs-fuse-connections.mount
+  61ms systemd-timedated.service
+  60ms systemd-modules-load.service
+  58ms systemd-tmpfiles-setup.service
+  58ms systemd-sysusers.service
+  50ms systemd-remount-fs.service
+  39ms systemd-user-sessions.service
+  39ms systemd-update-utmp.service
+  28ms snapd.socket
+  22ms console-setup.service
+  20ms systemd-update-utmp-runlevel.service
+  19ms systemd-tmpfiles-setup-dev.service
+  19ms setvtrgb.service
+  10ms systemd-update-done.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @10.441s
+ - multi-user.target @10.440s
+   - snapd.seeded.service @5.705s +4.732s
+     - basic.target @5.665s
+       - sockets.target @5.664s
+         - snapd.socket @5.635s +28ms
+           - sysinit.target @5.596s
+             - cloud-init.service @3.231s +2.361s
+               - cloud-init-local.service @1.189s +2.007s
+                 - systemd-remount-fs.service @1.114s +50ms
+                   - systemd-journald.socket @976ms
+                     - system.slice @939ms
+                       - -.slice @939ms
+=== FIRST BOOT 37 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.163s snapd.seeded.service
+1.736s cloud-init-local.service
+1.533s landscape-client.service
+1.244s cloud-init.service
+1.184s cloud-config.service
+ 932ms dev-sdd.device
+ 692ms cloud-final.service
+ 598ms snapd.service
+ 386ms systemd-resolved.service
+ 383ms wsl-pro.service
+ 287ms systemd-udev-trigger.service
+ 199ms rsyslog.service
+ 186ms systemd-timesyncd.service
+ 176ms systemd-udevd.service
+ 165ms keyboard-setup.service
+ 141ms ldconfig.service
+ 133ms systemd-journald.service
+ 124ms systemd-journal-flush.service
+ 110ms systemd-logind.service
+ 109ms dbus.service
+ 107ms e2scrub_reap.service
+  78ms systemd-sysctl.service
+  77ms sys-kernel-debug.mount
+  76ms dev-mqueue.mount
+  76ms dev-hugepages.mount
+  75ms sys-kernel-tracing.mount
+  75ms systemd-tmpfiles-setup-dev-early.service
+  64ms modprobe@dm_mod.service
+  63ms modprobe@drm.service
+  61ms modprobe@configfs.service
+  61ms kmod-static-nodes.service
+  60ms modprobe@efi_pstore.service
+  59ms systemd-tmpfiles-setup.service
+  58ms systemd-update-utmp-runlevel.service
+  58ms modprobe@fuse.service
+  58ms systemd-timedated.service
+  57ms modprobe@loop.service
+  53ms systemd-journal-catalog-update.service
+  48ms systemd-modules-load.service
+  45ms systemd-sysusers.service
+  44ms systemd-remount-fs.service
+  33ms sys-fs-fuse-connections.mount
+  29ms systemd-update-utmp.service
+  29ms sys-kernel-config.mount
+  27ms systemd-update-done.service
+  26ms systemd-user-sessions.service
+  23ms snapd.socket
+  22ms console-setup.service
+  20ms setvtrgb.service
+  14ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @7.318s
+ - multi-user.target @7.316s
+   - snapd.seeded.service @4.149s +3.163s
+     - basic.target @4.114s
+       - sockets.target @4.113s
+         - snapd.socket @4.089s +23ms
+           - sysinit.target @4.072s
+             - cloud-init.service @2.824s +1.244s
+               - cloud-init-local.service @1.064s +1.736s
+                 - systemd-remount-fs.service @1.002s +44ms
+                   - systemd-journald.socket @931ms
+                     - system.slice @872ms
+                       - -.slice @871ms
+=== FIRST BOOT 38 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+1.845s landscape-client.service
+1.673s cloud-init.service
+1.642s cloud-init-local.service
+1.556s cloud-config.service
+1.203s snapd.seeded.service
+ 845ms dev-sdd.device
+ 650ms snapd.service
+ 538ms cloud-final.service
+ 369ms wsl-pro.service
+ 350ms systemd-resolved.service
+ 231ms systemd-udev-trigger.service
+ 199ms rsyslog.service
+ 165ms systemd-udevd.service
+ 161ms keyboard-setup.service
+ 142ms systemd-timesyncd.service
+ 128ms systemd-journald.service
+ 108ms ldconfig.service
+ 107ms dbus.service
+ 104ms systemd-journal-flush.service
+ 102ms systemd-logind.service
+  96ms e2scrub_reap.service
+  83ms systemd-tmpfiles-setup-dev-early.service
+  72ms systemd-timedated.service
+  67ms dev-hugepages.mount
+  66ms dev-mqueue.mount
+  64ms sys-kernel-debug.mount
+  64ms systemd-sysctl.service
+  63ms sys-kernel-tracing.mount
+  61ms systemd-journal-catalog-update.service
+  53ms systemd-tmpfiles-setup.service
+  52ms modprobe@drm.service
+  52ms kmod-static-nodes.service
+  52ms modprobe@dm_mod.service
+  51ms modprobe@configfs.service
+  48ms modprobe@efi_pstore.service
+  47ms modprobe@fuse.service
+  47ms modprobe@loop.service
+  47ms sys-fs-fuse-connections.mount
+  45ms sys-kernel-config.mount
+  44ms systemd-modules-load.service
+  41ms systemd-sysusers.service
+  40ms systemd-remount-fs.service
+  28ms snapd.socket
+  28ms systemd-update-utmp.service
+  27ms systemd-update-utmp-runlevel.service
+  21ms systemd-user-sessions.service
+  20ms console-setup.service
+  20ms systemd-update-done.service
+  17ms setvtrgb.service
+  14ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @6.248s
+ - multi-user.target @6.247s
+   - snapd.seeded.service @4.417s +1.203s
+     - basic.target @4.384s
+       - sockets.target @4.384s
+         - snapd.socket @4.355s +28ms
+           - sysinit.target @4.338s
+             - cloud-init.service @2.662s +1.673s
+               - cloud-init-local.service @1.002s +1.642s
+                 - systemd-remount-fs.service @941ms +40ms
+                   - systemd-journald.socket @877ms
+                     - -.mount @841ms
+                       - -.slice @840ms
+=== FIRST BOOT 39 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+3.921s cloud-init.service
+3.759s snapd.seeded.service
+1.719s cloud-init-local.service
+1.575s landscape-client.service
+1.224s cloud-config.service
+ 816ms dev-sdd.device
+ 718ms cloud-final.service
+ 652ms snapd.service
+ 387ms wsl-pro.service
+ 342ms systemd-resolved.service
+ 244ms systemd-udev-trigger.service
+ 212ms rsyslog.service
+ 178ms keyboard-setup.service
+ 178ms systemd-udevd.service
+ 177ms systemd-timesyncd.service
+ 137ms e2scrub_reap.service
+ 129ms systemd-journal-flush.service
+ 125ms ldconfig.service
+ 121ms systemd-journald.service
+ 113ms dbus.service
+  99ms systemd-logind.service
+  84ms systemd-tmpfiles-setup-dev-early.service
+  75ms systemd-sysctl.service
+  69ms systemd-timedated.service
+  65ms dev-mqueue.mount
+  65ms dev-hugepages.mount
+  64ms sys-kernel-debug.mount
+  63ms sys-kernel-tracing.mount
+  55ms systemd-journal-catalog-update.service
+  54ms modprobe@dm_mod.service
+  54ms systemd-tmpfiles-setup.service
+  53ms modprobe@configfs.service
+  52ms kmod-static-nodes.service
+  52ms modprobe@drm.service
+  52ms modprobe@efi_pstore.service
+  50ms modprobe@fuse.service
+  49ms systemd-sysusers.service
+  46ms modprobe@loop.service
+  44ms systemd-modules-load.service
+  43ms systemd-remount-fs.service
+  37ms snapd.socket
+  35ms systemd-update-utmp.service
+  26ms sys-fs-fuse-connections.mount
+  23ms console-setup.service
+  23ms sys-kernel-config.mount
+  21ms systemd-update-done.service
+  20ms setvtrgb.service
+  19ms systemd-update-utmp-runlevel.service
+  19ms systemd-user-sessions.service
+  12ms systemd-tmpfiles-setup-dev.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @10.539s
+ - multi-user.target @10.538s
+   - snapd.seeded.service @6.777s +3.759s
+     - basic.target @6.742s
+       - sockets.target @6.741s
+         - snapd.socket @6.703s +37ms
+           - sysinit.target @6.688s
+             - cloud-init.service @2.763s +3.921s
+               - cloud-init-local.service @1.006s +1.719s
+                 - systemd-remount-fs.service @949ms +43ms
+                   - systemd-journald.socket @888ms
+                     - system.slice @833ms
+                       - -.slice @833ms
+=== FIRST BOOT 40 ===
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+2.212s cloud-init.service
+1.704s cloud-init-local.service
+1.560s landscape-client.service
+1.231s cloud-config.service
+1.182s snapd.seeded.service
+ 728ms dev-sde.device
+ 613ms snapd.service
+ 526ms systemd-resolved.service
+ 522ms cloud-final.service
+ 378ms wsl-pro.service
+ 341ms systemd-udev-trigger.service
+ 248ms systemd-timesyncd.service
+ 198ms rsyslog.service
+ 167ms keyboard-setup.service
+ 140ms systemd-journal-flush.service
+ 139ms systemd-udevd.service
+ 134ms systemd-journald.service
+ 131ms systemd-sysctl.service
+ 121ms systemd-tmpfiles-setup-dev-early.service
+ 111ms systemd-logind.service
+ 107ms dbus.service
+ 102ms e2scrub_reap.service
+  84ms systemd-journal-catalog-update.service
+  79ms ldconfig.service
+  67ms systemd-tmpfiles-setup.service
+  59ms systemd-timedated.service
+  57ms dev-hugepages.mount
+  56ms dev-mqueue.mount
+  55ms sys-kernel-debug.mount
+  53ms sys-kernel-tracing.mount
+  48ms systemd-update-utmp.service
+  46ms snapd.socket
+  46ms systemd-sysusers.service
+  44ms modprobe@drm.service
+  44ms kmod-static-nodes.service
+  43ms modprobe@configfs.service
+  43ms modprobe@dm_mod.service
+  42ms modprobe@efi_pstore.service
+  38ms modprobe@fuse.service
+  35ms modprobe@loop.service
+  31ms systemd-modules-load.service
+  30ms systemd-remount-fs.service
+  25ms sys-fs-fuse-connections.mount
+  23ms sys-kernel-config.mount
+  22ms systemd-user-sessions.service
+  21ms systemd-tmpfiles-setup-dev.service
+  20ms setvtrgb.service
+  18ms systemd-update-utmp-runlevel.service
+  10ms systemd-update-done.service
+   9ms console-setup.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+- graphical.target @6.625s
+ - multi-user.target @6.624s
+   - snapd.seeded.service @5.079s +1.182s
+     - basic.target @5.040s
+       - sockets.target @5.039s
+         - snapd.socket @4.991s +46ms
+           - sysinit.target @4.973s
+             - cloud-init.service @2.757s +2.212s
+               - cloud-init-local.service @1.021s +1.704s
+                 - systemd-remount-fs.service @982ms +30ms
+                   - systemd-journald.socket @929ms
+                     - -.mount @890ms
+                       - -.slice @890ms
